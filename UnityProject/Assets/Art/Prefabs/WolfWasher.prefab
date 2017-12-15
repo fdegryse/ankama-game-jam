@@ -502,7 +502,7 @@ MonoBehaviour:
   - {fileID: 114155270872509826}
   bloodSpriteSheetAnimation: {fileID: 114140235200564152}
   trapSpriteSheetAnimation: {fileID: 114993634661538490}
-  bloodRandomFactor: 0.1
+  bloodRandomFactor: 0.2
   bloodPositionRandomRange: 0.5
   bloodAngleRandomRange: 30
 --- !u!114 &114390109122219156

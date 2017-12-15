@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: robot_bleu
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 2
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 492474dccdfbbec42bf298065cd8d9eb, type: 3}
+    - {fileID: 2800000, guid: 9b1f629323f6ebd4ca42b0b2c2b82cf4, type: 3}
+    - {fileID: 2800000, guid: ef67ca3045c74654ca219abc38c5d0e9, type: 3}
+    - {fileID: 2800000, guid: 8d78aa3c51f595f4b9154dbfcce1c6a0, type: 3}
+    - {fileID: 2800000, guid: 914b8c1ff98f10d47817ae197585fe8d, type: 3}
+    - {fileID: 2800000, guid: 11122e51bea08134590e2d6d73246deb, type: 3}
+    - {fileID: 2800000, guid: cc58ae863aef55c409c8d8f2938e6b8b, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 9b1f629323f6ebd4ca42b0b2c2b82cf4, type: 3}
+  - {fileID: 21300000, guid: 8d78aa3c51f595f4b9154dbfcce1c6a0, type: 3}
+  - {fileID: 21300000, guid: 914b8c1ff98f10d47817ae197585fe8d, type: 3}
+  - {fileID: 21300000, guid: ef67ca3045c74654ca219abc38c5d0e9, type: 3}
+  - {fileID: 21300000, guid: cc58ae863aef55c409c8d8f2938e6b8b, type: 3}
+  - {fileID: 21300000, guid: 11122e51bea08134590e2d6d73246deb, type: 3}
+  - {fileID: 21300000, guid: 492474dccdfbbec42bf298065cd8d9eb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - corps
+  - dents
+  - dents_fermees
+  - corps_2
+  - oeil
+  - feu_reacteur
+  - chaine
+  m_Tag: robot_bleu
+  m_IsVariant: 0
