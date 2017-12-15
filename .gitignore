@@ -32,3 +32,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+/UnityProject/_ReSharper.Caches
