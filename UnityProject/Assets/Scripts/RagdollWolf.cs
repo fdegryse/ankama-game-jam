@@ -6,11 +6,15 @@ using UnityEngine;
 public class RagdollWolf : MonoBehaviour
 {
 	[UsedImplicitly]
+	public Collider2D headCollider;
+	
+	[UsedImplicitly]
 	public float washerActivationDelay = 1f;
-
+	
 	private readonly Dictionary<Collider2D, List<Joint2D>> m_activeTrapJoints = new Dictionary<Collider2D, List<Joint2D>>(2);
-
-	public bool AttachToTrap(Collider2D hit, Collider2D trapCollider)
+	private bool m_dead;
+	
+	public void AttachToTrap(Collider2D hit, Collider2D trapCollider)
 	{
 		Rigidbody2D hitRigidbody = hit.attachedRigidbody;
 
@@ -30,11 +34,9 @@ public class RagdollWolf : MonoBehaviour
 			};
 			m_activeTrapJoints.Add(trapCollider, jointList);
 		}
-
-		return true;
 	}
 
-	public bool ReleaseFromTrap(Collider2D trapCollider)
+	public void ReleaseFromTrap(Collider2D trapCollider)
 	{
 		List<Joint2D> jointList;
 		if (m_activeTrapJoints.TryGetValue(trapCollider, out jointList))
@@ -45,30 +47,36 @@ public class RagdollWolf : MonoBehaviour
 			}
 
 			jointList.Clear();
-
-			return true;
 		}
-
-		return false;
 	}
 
 	public void PutInWasher(WolfWasher wolfWasher)
 	{
-		StartCoroutine(PutInWasherRoutine(wolfWasher));
+		if (m_dead)
+		{
+			return;
+		}
+		m_dead = true;
+
+		foreach (List<Joint2D> jointList in m_activeTrapJoints.Values)
+		{
+			foreach (Joint2D joint2D in jointList)
+			{
+				Destroy(joint2D);
+			}
+		}
+
+		m_activeTrapJoints.Clear();
+
+		wolfWasher.StartCoroutine(PutInWasherRoutine(wolfWasher));
 	}
 
 	private IEnumerator PutInWasherRoutine(WolfWasher wolfWasher)
 	{
 		yield return new WaitForSeconds(washerActivationDelay);
+		
+		Destroy(gameObject);
 
 		wolfWasher.enabled = true;
-
-		do
-		{
-			yield return null;
-		}
-		while (wolfWasher.enabled);
-
-		Destroy(gameObject);
 	}
 }

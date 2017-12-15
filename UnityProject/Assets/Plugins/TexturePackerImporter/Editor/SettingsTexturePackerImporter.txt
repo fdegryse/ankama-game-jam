@@ -1,6 +1,12 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/Art/Animations/Wolf/wolf_head_apparition.tpsheet
+- Assets/Art/Animations/Wolf/wolf_head_loop.tpsheet
+- Assets/Art/Animations/Wolf/wolf_leg_apparition.tpsheet
+- Assets/Art/Animations/Wolf/wolf_leg_loop.tpsheet
+- Assets/Art/Animations/Wolf/wolf_tail_apparition.tpsheet
+- Assets/Art/Animations/Wolf/wolf_tail_loop.tpsheet
 - Assets/Art/Animations/WolfWasher/WolfWasher_animation.tpsheet
 - Assets/Art/Animations/WolfWasher/WolfWasherBlood_animation.tpsheet
 - Assets/Art/Animations/WolfWasher/WolfWasherLights_animation.tpsheet
@@ -8,6 +14,12 @@ tpsheetFileNames:
 - Assets/Art/Animations/WolfWasher/WolfWasherWolf_animation.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
+- Assets/Art/Animations/Wolf/wolf_head_apparition.png
+- Assets/Art/Animations/Wolf/wolf_head_loop.png
+- Assets/Art/Animations/Wolf/wolf_leg_apparition.png
+- Assets/Art/Animations/Wolf/wolf_leg_loop.png
+- Assets/Art/Animations/Wolf/wolf_tail_apparition.png
+- Assets/Art/Animations/Wolf/wolf_tail_loop.png
 - Assets/Art/Animations/WolfWasher/WolfWasher_animation.png
 - Assets/Art/Animations/WolfWasher/WolfWasherBlood_animation.png
 - Assets/Art/Animations/WolfWasher/WolfWasherLights_animation.png
@@ -15,6 +27,12 @@ textureFileNames:
 - Assets/Art/Animations/WolfWasher/WolfWasherWolf_animation.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- 
 - 
 - 
 - 

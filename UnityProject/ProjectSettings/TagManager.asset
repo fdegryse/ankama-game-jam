@@ -41,6 +41,12 @@ TagManager:
   - name: Level-Background
     uniqueID: 3804781659
     locked: 0
+  - name: Level-Wolves
+    uniqueID: 2112447297
+    locked: 0
+  - name: Level-Foreground
+    uniqueID: 114937389
+    locked: 0
   - name: Wolves
     uniqueID: 1371272445
     locked: 0
@@ -49,7 +55,4 @@ TagManager:
     locked: 0
   - name: WolfWashers
     uniqueID: 1094124383
-    locked: 0
-  - name: Level-Foreground
-    uniqueID: 114937389
     locked: 0

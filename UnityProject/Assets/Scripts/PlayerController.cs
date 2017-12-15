@@ -67,9 +67,9 @@ public class PlayerController : MonoBehaviour
 		SetTrapState(TrapState.Open);
 	}
 
-	private void SetTrapState(TrapState trapState)
+	private void SetTrapState(TrapState value)
 	{
-		switch (trapState)
+		switch (value)
 		{
 			case TrapState.Open:
 				trapOpen.SetActive(true);
@@ -77,23 +77,29 @@ public class PlayerController : MonoBehaviour
 				m_trapCooldown = 0f;
 				foreach (RagdollWolf wolf in m_trappedWolves)
 				{
-					wolf.ReleaseFromTrap(trapCollider);
+					if (null != wolf)
+					{
+						wolf.ReleaseFromTrap(trapCollider);
+					}
 				}
+				m_trappedWolves.Clear();
 				break;
 			case TrapState.Closed:
 				trapOpen.SetActive(false);
 				trapClosed.SetActive(true);
+				trapClosed.layer = LayerMask.NameToLayer("Robots");
 				m_trapCooldown = trapCooldown;
 				break;
 			case TrapState.ClosedTrapped:
 				trapOpen.SetActive(false);
 				trapClosed.SetActive(true);
+				trapClosed.layer = LayerMask.NameToLayer("Blocker");
 				break;
 			default:
-				throw new ArgumentOutOfRangeException("trapState", trapState, null);
+				throw new ArgumentOutOfRangeException("value", value, null);
 		}
 
-		m_trapState = trapState;
+		m_trapState = value;
 	}
 
 	[UsedImplicitly]
@@ -149,10 +155,15 @@ public class PlayerController : MonoBehaviour
 				bool closeTrap = m_player.GetButtonDown("CloseTrap");
 				if (closeTrap)
 				{
-					ContactFilter2D contactFilter2D = new ContactFilter2D();
+					ContactFilter2D contactFilter2D = new ContactFilter2D
+					{
+						useTriggers = true
+					};
 
+					trapCollider.enabled = true;
 					int trapHitCount = trapCollider.OverlapCollider(contactFilter2D, m_trapHitBuffer);
 					int raycastHitCount = trapCollider.Raycast(-trapCollider.transform.up, contactFilter2D, m_trapHitRaycastBuffer);
+					trapCollider.enabled = false;
 
 					RagdollWolf closestHitWolf = null;
 					Collider2D closestHitCollider = null;
@@ -165,25 +176,36 @@ public class PlayerController : MonoBehaviour
 						Rigidbody2D hitRigidbody = hit.attachedRigidbody;
 						if (null == hitRigidbody)
 						{
-							continue;
-						}
+							var wolf = hit.gameObject.GetComponent<Wolf>();
 
-						var hitWolfPart = hitRigidbody.GetComponent<RagdollWolfPart>();
-						if (null != hitWolfPart)
+							RagdollWolf ragdollWolf = wolf.GetTrapped();
+							m_trappedWolves.Add(ragdollWolf);
+
+							SetTrapState(TrapState.ClosedTrapped);
+
+							ragdollWolf.AttachToTrap(ragdollWolf.headCollider, trapCollider);
+
+							ragdollWolf.gameObject.SetActive(true);
+						}
+						else
 						{
-							for (int j = 0; j < raycastHitCount; ++j)
+							var hitWolfPart = hitRigidbody.GetComponent<RagdollWolfPart>();
+							if (null != hitWolfPart)
 							{
-								RaycastHit2D raycastHit = m_trapHitRaycastBuffer[j];
-								if (raycastHit.collider == hit)
+								for (int j = 0; j < raycastHitCount; ++j)
 								{
-									float raycastHitDistance = raycastHit.distance;
-									if (raycastHitDistance < closestHitDistance)
+									RaycastHit2D raycastHit = m_trapHitRaycastBuffer[j];
+									if (raycastHit.collider == hit)
 									{
-										closestHitWolf = hitWolfPart.ragdollWolf;
-										closestHitCollider = hit;
-										closestHitDistance = raycastHitDistance;
+										float raycastHitDistance = raycastHit.distance;
+										if (raycastHitDistance < closestHitDistance)
+										{
+											closestHitWolf = hitWolfPart.ragdollWolf;
+											closestHitCollider = hit;
+											closestHitDistance = raycastHitDistance;
+										}
+										break;
 									}
-									break;
 								}
 							}
 						}
@@ -191,12 +213,10 @@ public class PlayerController : MonoBehaviour
 
 					if (null != closestHitCollider)
 					{
-						if (closestHitWolf.AttachToTrap(closestHitCollider, trapCollider))
-						{
-							m_trappedWolves.Add(closestHitWolf);
+						SetTrapState(TrapState.ClosedTrapped);
+						m_trappedWolves.Add(closestHitWolf);
 
-							SetTrapState(TrapState.ClosedTrapped);
-						}
+						closestHitWolf.AttachToTrap(closestHitCollider, trapCollider);
 					}
 
 					if (m_trapState == TrapState.Open)
@@ -237,14 +257,6 @@ public class PlayerController : MonoBehaviour
 
 			default:
 				throw new ArgumentOutOfRangeException();
-		}
-		if (m_trapCooldown <= float.Epsilon)
-		{
-			
-		}
-		else
-		{
-			
 		}
 	}
 }

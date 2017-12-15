@@ -9,7 +9,7 @@ public class RagdollWolfPart : MonoBehaviour
 	[UsedImplicitly]
 	private void OnTriggerEnter2D(Collider2D other)
 	{
-		var wolfWasher = other.gameObject.GetComponentInParent<WolfWasher>();
+		var wolfWasher = other.gameObject.GetComponent<WolfWasher>();
 		if (null == wolfWasher)
 		{
 			return;

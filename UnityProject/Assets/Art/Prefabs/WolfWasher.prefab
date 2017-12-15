@@ -71,6 +71,7 @@ GameObject:
   - component: {fileID: 210885528118252914}
   - component: {fileID: 114264212495932264}
   - component: {fileID: 60236404321500880}
+  - component: {fileID: 61209136792033678}
   m_Layer: 0
   m_Name: WolfWasher
   m_TagString: Untagged
@@ -106,7 +107,7 @@ GameObject:
   - component: {fileID: 61493124216530040}
   - component: {fileID: 249523897492147940}
   m_Layer: 0
-  m_Name: WolfWasherTrigger
+  m_Name: WolfWasherAffector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,7 +210,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1197621537055316}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.44, y: -4.93, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4823977235920290}
@@ -335,6 +336,31 @@ PolygonCollider2D:
       - {x: -0.85999995, y: -1.15}
       - {x: -0.51, y: -1.15}
       - {x: 0.83, y: -1.15}
+--- !u!61 &61209136792033678
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197621537055316}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.6}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.75}
+  m_EdgeRadius: 0
 --- !u!61 &61493124216530040
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -347,7 +373,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.16}
+  m_Offset: {x: 0.02, y: 0.3}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -358,7 +384,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4, y: 2.15}
+  m_Size: {x: 1.25, y: 1.65}
   m_EdgeRadius: 0
 --- !u!61 &61569532676838144
 BoxCollider2D:
@@ -919,8 +945,8 @@ AreaEffector2D:
     m_Bits: 512
   m_UseGlobalAngle: 0
   m_ForceAngle: -90
-  m_ForceMagnitude: 5000
+  m_ForceMagnitude: 2500
   m_ForceVariation: 0
   m_ForceTarget: 1
-  m_Drag: 1000
-  m_AngularDrag: 1000
+  m_Drag: 750
+  m_AngularDrag: 750

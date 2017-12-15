@@ -1,0 +1,3178 @@
+fileFormatVersion: 2
+guid: a19b682f637444248a07731601a20ead
+timeCreated: 1513346750
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: loup_tete_cycle-0000
+    21300002: loup_tete_cycle-0001
+    21300004: loup_tete_cycle-0002
+    21300006: loup_tete_cycle-0003
+    21300008: loup_tete_cycle-0004
+    21300010: loup_tete_cycle-0005
+    21300012: loup_tete_cycle-0006
+    21300014: loup_tete_cycle-0007
+    21300016: loup_tete_cycle-0008
+    21300018: loup_tete_cycle-0009
+    21300020: loup_tete_cycle-0010
+    21300022: loup_tete_cycle-0011
+    21300024: loup_tete_cycle-0012
+    21300026: loup_tete_cycle-0013
+    21300028: loup_tete_cycle-0014
+    21300030: loup_tete_cycle-0015
+    21300032: loup_tete_cycle-0016
+    21300034: loup_tete_cycle-0017
+    21300036: loup_tete_cycle-0018
+    21300038: loup_tete_cycle-0019
+    21300040: loup_tete_cycle-0020
+    21300042: loup_tete_cycle-0021
+    21300044: loup_tete_cycle-0022
+    21300046: loup_tete_cycle-0023
+    21300048: loup_tete_cycle-0024
+    21300050: loup_tete_cycle-0025
+    21300052: loup_tete_cycle-0026
+    21300054: loup_tete_cycle-0027
+    21300056: loup_tete_cycle-0028
+    21300058: loup_tete_cycle-0029
+    21300060: loup_tete_cycle-0030
+    21300062: loup_tete_cycle-0031
+    21300064: loup_tete_cycle-0032
+    21300066: loup_tete_cycle-0033
+    21300068: loup_tete_cycle-0034
+    21300070: loup_tete_cycle-0035
+    21300072: loup_tete_cycle-0036
+    21300074: loup_tete_cycle-0037
+    21300076: loup_tete_cycle-0038
+    21300078: loup_tete_cycle-0039
+    21300080: loup_tete_cycle-0040
+    21300082: loup_tete_cycle-0041
+    21300084: loup_tete_cycle-0042
+    21300086: loup_tete_cycle-0043
+    21300088: loup_tete_cycle-0044
+    21300090: loup_tete_cycle-0045
+    21300092: loup_tete_cycle-0046
+    21300094: loup_tete_cycle-0047
+    21300096: loup_tete_cycle-0048
+    21300098: loup_tete_cycle-0049
+    21300100: loup_tete_cycle-0050
+    21300102: loup_tete_cycle-0051
+    21300104: loup_tete_cycle-0052
+    21300106: loup_tete_cycle-0053
+    21300108: loup_tete_cycle-0054
+    21300110: loup_tete_cycle-0055
+    21300112: loup_tete_cycle-0056
+    21300114: loup_tete_cycle-0057
+    21300116: loup_tete_cycle-0058
+    21300118: loup_tete_cycle-0059
+    21300120: loup_tete_cycle-0060
+    21300122: loup_tete_cycle-0061
+    21300124: loup_tete_cycle-0062
+    21300126: loup_tete_cycle-0063
+    21300128: loup_tete_cycle-0064
+    21300130: loup_tete_cycle-0065
+    21300132: loup_tete_cycle-0066
+    21300134: loup_tete_cycle-0067
+    21300136: loup_tete_cycle-0068
+    21300138: loup_tete_cycle-0069
+    21300140: loup_tete_cycle-0070
+    21300142: loup_tete_cycle-0071
+    21300144: loup_tete_cycle-0072
+    21300146: loup_tete_cycle-0073
+    21300148: loup_tete_cycle-0074
+    21300150: loup_tete_cycle-0075
+    21300152: loup_tete_cycle-0076
+    21300154: loup_tete_cycle-0077
+    21300156: loup_tete_cycle-0078
+    21300158: loup_tete_cycle-0079
+    21300160: loup_tete_cycle-0080
+    21300162: loup_tete_cycle-0081
+    21300164: loup_tete_cycle-0082
+    21300166: loup_tete_cycle-0083
+    21300168: loup_tete_cycle-0084
+    21300170: loup_tete_cycle-0085
+    21300172: loup_tete_cycle-0086
+    21300174: loup_tete_cycle-0087
+    21300176: loup_tete_cycle-0088
+    21300178: loup_tete_cycle-0089
+    21300180: loup_tete_cycle-0090
+    21300182: loup_tete_cycle-0091
+    21300184: loup_tete_cycle-0092
+    21300186: loup_tete_cycle-0093
+    21300188: loup_tete_cycle-0094
+    21300190: loup_tete_cycle-0095
+    21300192: loup_tete_cycle-0096
+    21300194: loup_tete_cycle-0097
+    21300196: loup_tete_cycle-0098
+    21300198: loup_tete_cycle-0099
+    21300200: loup_tete_cycle-0100
+    21300202: loup_tete_cycle-0101
+    21300204: loup_tete_cycle-0102
+    21300206: loup_tete_cycle-0103
+    21300208: loup_tete_cycle-0104
+    21300210: loup_tete_cycle-0105
+    21300212: loup_tete_cycle-0106
+    21300214: loup_tete_cycle-0107
+    21300216: loup_tete_cycle-0108
+    21300218: loup_tete_cycle-0109
+    21300220: loup_tete_cycle-0110
+    21300222: loup_tete_cycle-0111
+    21300224: loup_tete_cycle-0112
+    21300226: loup_tete_cycle-0113
+    21300228: loup_tete_cycle-0114
+    21300230: loup_tete_cycle-0115
+    21300232: loup_tete_cycle-0116
+    21300234: loup_tete_cycle-0117
+    21300236: loup_tete_cycle-0118
+    21300238: loup_tete_cycle-0119
+    21300240: loup_tete_cycle-0120
+    21300242: loup_tete_cycle-0121
+    21300244: loup_tete_cycle-0122
+    21300246: loup_tete_cycle-0123
+    21300248: loup_tete_cycle-0124
+    21300250: loup_tete_cycle-0125
+    21300252: loup_tete_cycle-0126
+    21300254: loup_tete_cycle-0127
+    21300256: loup_tete_cycle-0128
+    21300258: loup_tete_cycle-0129
+    21300260: loup_tete_cycle-0130
+    21300262: loup_tete_cycle-0131
+    21300264: loup_tete_cycle-0132
+    21300266: loup_tete_cycle-0133
+    21300268: loup_tete_cycle-0134
+    21300270: loup_tete_cycle-0135
+    21300272: loup_tete_cycle-0136
+    21300274: loup_tete_cycle-0137
+    21300276: loup_tete_cycle-0138
+    21300278: loup_tete_cycle-0139
+    21300280: loup_tete_cycle-0140
+    21300282: loup_tete_cycle-0141
+    21300284: loup_tete_cycle-0142
+    21300286: loup_tete_cycle-0143
+    21300288: loup_tete_cycle-0144
+    21300290: loup_tete_cycle-0145
+    21300292: loup_tete_cycle-0146
+    21300294: loup_tete_cycle-0147
+    21300296: loup_tete_cycle-0148
+    21300298: loup_tete_cycle-0149
+    21300300: loup_tete_cycle-0150
+    21300302: loup_tete_cycle-0151
+    21300304: loup_tete_cycle-0152
+    21300306: loup_tete_cycle-0153
+    21300308: loup_tete_cycle-0154
+    21300310: loup_tete_cycle-0155
+    21300312: loup_tete_cycle-0156
+    21300314: loup_tete_cycle-0157
+    21300316: loup_tete_cycle-0158
+    21300318: loup_tete_cycle-0159
+    21300320: loup_tete_cycle-0160
+    21300322: loup_tete_cycle-0161
+    21300324: loup_tete_cycle-0162
+    21300326: loup_tete_cycle-0163
+    21300328: loup_tete_cycle-0164
+    21300330: loup_tete_cycle-0165
+    21300332: loup_tete_cycle-0166
+    21300334: loup_tete_cycle-0167
+    21300336: loup_tete_cycle-0168
+    21300338: loup_tete_cycle-0169
+    21300340: loup_tete_cycle-0170
+    21300342: loup_tete_cycle-0171
+    21300344: loup_tete_cycle-0172
+    21300346: loup_tete_cycle-0173
+    21300348: loup_tete_cycle-0174
+    21300350: loup_tete_cycle-0175
+    21300352: loup_tete_cycle-0176
+    21300354: loup_tete_cycle-0177
+    21300356: loup_tete_cycle-0178
+    21300358: loup_tete_cycle-0179
+    21300360: loup_tete_cycle-0180
+    21300362: loup_tete_cycle-0181
+    21300364: loup_tete_cycle-0182
+    21300366: loup_tete_cycle-0183
+    21300368: loup_tete_cycle-0184
+    21300370: loup_tete_cycle-0185
+    21300372: loup_tete_cycle-0186
+    21300374: loup_tete_cycle-0187
+    21300376: loup_tete_cycle-0188
+    21300378: loup_tete_cycle-0189
+    21300380: loup_tete_cycle-0190
+    21300382: loup_tete_cycle-0191
+    21300384: loup_tete_cycle-0192
+    21300386: loup_tete_cycle-0193
+    21300388: loup_tete_cycle-0194
+    21300390: loup_tete_cycle-0195
+    21300392: loup_tete_cycle-0196
+    21300394: loup_tete_cycle-0197
+    21300396: loup_tete_cycle-0198
+    21300398: loup_tete_cycle-0199
+    21300400: loup_tete_cycle-0200
+    21300402: loup_tete_cycle-0201
+    21300404: loup_tete_cycle-0202
+    21300406: loup_tete_cycle-0203
+    21300408: loup_tete_cycle-0204
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: loup_tete_cycle-0000
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0001
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0002
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0003
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0004
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0005
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0006
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0007
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0008
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0009
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0010
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0011
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0012
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0013
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0014
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0015
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0016
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0017
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0018
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0019
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0020
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0021
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0022
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0023
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0024
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0025
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0026
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0027
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0028
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0029
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0030
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0031
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0032
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 3
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0033
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 7
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0034
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 3
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0035
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 22
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0036
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0037
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0038
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0039
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0040
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0041
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0042
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0043
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0044
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0045
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0046
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0047
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0048
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0049
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0050
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0051
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0052
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0053
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0054
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0055
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0056
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 3
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0057
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 34
+        width: 97
+        height: 108
+      alignment: 9
+      pivot: {x: 0.5154639, y: 0.39814815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0058
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 30
+        width: 91
+        height: 111
+      alignment: 9
+      pivot: {x: 0.51648355, y: 0.4234234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0059
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 144
+        width: 90
+        height: 111
+      alignment: 9
+      pivot: {x: 0.5222222, y: 0.45945945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0060
+      rect:
+        serializedVersion: 2
+        x: 1576
+        y: 43
+        width: 100
+        height: 104
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4903846}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0061
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 120
+        width: 78
+        height: 135
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.51111114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0062
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 122
+        width: 73
+        height: 133
+      alignment: 9
+      pivot: {x: 0.3561644, y: 0.518797}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0063
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 117
+        width: 73
+        height: 138
+      alignment: 9
+      pivot: {x: 0.3561644, y: 0.5072464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0064
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 120
+        width: 74
+        height: 135
+      alignment: 9
+      pivot: {x: 0.33783785, y: 0.5185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0065
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 121
+        width: 71
+        height: 134
+      alignment: 9
+      pivot: {x: 0.3802817, y: 0.51492536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0066
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 121
+        width: 71
+        height: 134
+      alignment: 9
+      pivot: {x: 0.3802817, y: 0.51492536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0067
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0068
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0069
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0070
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0071
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0072
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0073
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0074
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0075
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0076
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0077
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0078
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0079
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0080
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0081
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0082
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0083
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0084
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0085
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0086
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0087
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0088
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0089
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0090
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0091
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0092
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0093
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0094
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0095
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0096
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0097
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0098
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0099
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0100
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0101
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0102
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0103
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0104
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0105
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0106
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0107
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0108
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0109
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0110
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0111
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0112
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 115
+        width: 73
+        height: 140
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.49285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0113
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 134
+        width: 75
+        height: 121
+      alignment: 9
+      pivot: {x: 0.36, y: 0.553719}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0114
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 2
+        width: 71
+        height: 117
+      alignment: 9
+      pivot: {x: 0.45070422, y: 0.53846157}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0115
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 2
+        width: 70
+        height: 115
+      alignment: 9
+      pivot: {x: 0.37142858, y: 0.4695652}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0116
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 121
+        width: 72
+        height: 134
+      alignment: 9
+      pivot: {x: 0.375, y: 0.51492536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0117
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 120
+        width: 75
+        height: 135
+      alignment: 9
+      pivot: {x: 0.36, y: 0.4962963}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0118
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 1
+        width: 73
+        height: 117
+      alignment: 9
+      pivot: {x: 0.369863, y: 0.45299146}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0119
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 110
+        width: 75
+        height: 145
+      alignment: 9
+      pivot: {x: 0.36, y: 0.50344825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0120
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1
+        width: 75
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0121
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 119
+        width: 70
+        height: 136
+      alignment: 9
+      pivot: {x: 0.3857143, y: 0.5367647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0122
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1
+        width: 75
+        height: 118
+      alignment: 9
+      pivot: {x: 0.36, y: 0.44915253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0123
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0124
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0125
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0126
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0127
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0128
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0129
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0130
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0131
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0132
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0133
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0134
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0135
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0136
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0137
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0138
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0139
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0140
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0141
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0142
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0143
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0144
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0145
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0146
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0147
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0148
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 136
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0149
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 15
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0150
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 15
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0151
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 136
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0152
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 136
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0153
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 136
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0154
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 15
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0155
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 136
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0156
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 15
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0157
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0158
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0159
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0160
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0161
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0162
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0163
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0164
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0165
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0166
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0167
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0168
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0169
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0170
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0171
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0172
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0173
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 13
+        width: 74
+        height: 119
+      alignment: 9
+      pivot: {x: 0.36486486, y: 0.44537815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0174
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 113
+        width: 69
+        height: 142
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.52816904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0175
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 136
+        width: 69
+        height: 119
+      alignment: 9
+      pivot: {x: 0.3188406, y: 0.42016807}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0176
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1
+        width: 74
+        height: 117
+      alignment: 9
+      pivot: {x: 0.33783785, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0177
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 122
+        width: 75
+        height: 133
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.46616542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0178
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 150
+        width: 71
+        height: 105
+      alignment: 9
+      pivot: {x: 0.29577464, y: 0.37142858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0179
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 85
+        height: 107
+      alignment: 9
+      pivot: {x: 0.42352942, y: 0.36448598}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0180
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1
+        width: 83
+        height: 117
+      alignment: 9
+      pivot: {x: 0.4698795, y: 0.35897437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0181
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 149
+        width: 90
+        height: 106
+      alignment: 9
+      pivot: {x: 0.4888889, y: 0.4056604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0182
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 2
+        width: 87
+        height: 109
+      alignment: 9
+      pivot: {x: 0.49425286, y: 0.40366971}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0183
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 143
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0184
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0185
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0186
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0187
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0188
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0189
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0190
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0191
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0192
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0193
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0194
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0195
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0196
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0197
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0198
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0199
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0200
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0201
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0202
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0203
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: loup_tete_cycle-0204
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1
+        width: 90
+        height: 112
+      alignment: 9
+      pivot: {x: 0.51111114, y: 0.39285713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
