@@ -155,10 +155,8 @@ public class PlayerController : MonoBehaviour
 				bool closeTrap = m_player.GetButtonDown("CloseTrap");
 				if (closeTrap)
 				{
-					ContactFilter2D contactFilter2D = new ContactFilter2D
-					{
-						useTriggers = true
-					};
+					ContactFilter2D contactFilter2D = new ContactFilter2D();
+					contactFilter2D.SetLayerMask(LayerMask.GetMask("Wolves"));
 
 					trapCollider.enabled = true;
 					int trapHitCount = trapCollider.OverlapCollider(contactFilter2D, m_trapHitBuffer);
@@ -177,15 +175,32 @@ public class PlayerController : MonoBehaviour
 						if (null == hitRigidbody)
 						{
 							var wolf = hit.gameObject.GetComponent<Wolf>();
+							if (null != wolf)
+							{
+								RagdollWolf ragdollWolf = wolf.GetTrapped();
 
-							RagdollWolf ragdollWolf = wolf.GetTrapped();
-							m_trappedWolves.Add(ragdollWolf);
+								m_trappedWolves.Add(ragdollWolf);
 
-							SetTrapState(TrapState.ClosedTrapped);
+								SetTrapState(TrapState.ClosedTrapped);
 
-							ragdollWolf.AttachToTrap(ragdollWolf.headCollider, trapCollider);
+								Collider2D wolfCollider;
+								switch (wolf.wolfPart)
+								{
+									case Wolf.WolfPart.Head:
+										wolfCollider = ragdollWolf.headCollider;
+										break;
+									case Wolf.WolfPart.Leg:
+										wolfCollider = ragdollWolf.legCollider;
+										break;
+									case Wolf.WolfPart.Tail:
+										wolfCollider = ragdollWolf.tailCollider;
+										break;
+									default:
+										throw new ArgumentOutOfRangeException();
+								}
 
-							ragdollWolf.gameObject.SetActive(true);
+								ragdollWolf.AttachToTrap(wolfCollider, trapCollider);
+							}
 						}
 						else
 						{

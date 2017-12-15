@@ -1098,7 +1098,7 @@ CapsuleCollider2D:
   m_GameObject: {fileID: 1522415719908146}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 132f298d75ceae548a0d273870783923, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1237,14 +1237,14 @@ MonoBehaviour:
   playerId: 0
   mainRigidbody: {fileID: 50600443315989420}
   body: {fileID: 4466058777575698}
-  moveFactor: {x: 10000, y: 30000}
-  trapThrusterBoost: {x: 1.2, y: 1.6}
-  torqueFactor: 25
+  moveFactor: {x: 15000, y: 40000}
+  trapThrusterBoost: {x: 1.15, y: 1.5}
+  torqueFactor: 50
   bodyStabilizationFactor: 0.5
   trapOpen: {fileID: 1917805578495502}
   trapClosed: {fileID: 1607489992126330}
   trapCollider: {fileID: 60362179049376310}
-  trapCooldown: 1
+  trapCooldown: 0.5
 --- !u!114 &114822144434243008
 MonoBehaviour:
   m_ObjectHideFlags: 1

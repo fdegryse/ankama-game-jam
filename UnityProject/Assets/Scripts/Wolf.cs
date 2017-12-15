@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class Wolf : MonoBehaviour
 {
+	public enum WolfPart
+	{
+		Head,
+		Leg,
+		Tail
+	}
+
+	[UsedImplicitly]
+	public RagdollWolf ragdollWolf;
+
 	[UsedImplicitly]
 	public SpriteSheetAnimation apparition;
 	
@@ -11,7 +21,7 @@ public class Wolf : MonoBehaviour
 	public SpriteSheetAnimation loop;
 
 	[UsedImplicitly]
-	public RagdollWolf ragdollWolf;
+	public WolfPart wolfPart;
 
 	[UsedImplicitly]
 	private IEnumerator Start()
@@ -41,6 +51,8 @@ public class Wolf : MonoBehaviour
 		copyGameObject.transform.position = ragdollWolf.transform.position;
 		copyGameObject.transform.rotation = ragdollWolf.transform.rotation;
 		
+		copyGameObject.SetActive(true);
+
 		return copyGameObject.GetComponent<RagdollWolf>();
 	}
 }

@@ -9,6 +9,12 @@ public class RagdollWolf : MonoBehaviour
 	public Collider2D headCollider;
 	
 	[UsedImplicitly]
+	public Collider2D legCollider;
+
+	[UsedImplicitly]
+	public Collider2D tailCollider;
+	
+	[UsedImplicitly]
 	public float washerActivationDelay = 1f;
 	
 	private readonly Dictionary<Collider2D, List<Joint2D>> m_activeTrapJoints = new Dictionary<Collider2D, List<Joint2D>>(2);
