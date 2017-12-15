@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Robots
+  - Wolves
+  - Blocker
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: WolfWashers
+    uniqueID: 1094124383
     locked: 0
   - name: Level-Foreground
     uniqueID: 114937389

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4731131311977882}
   - component: {fileID: 212378650231434444}
   - component: {fileID: 114822144434243008}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4773218078739658}
   - component: {fileID: 212378952075721198}
   - component: {fileID: 114177133535504280}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Thrusters-Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4217788815776134}
   - component: {fileID: 212431948101138060}
   - component: {fileID: 114867074991515114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Thrusters-Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4243142874046932}
   - component: {fileID: 50140635816492966}
   - component: {fileID: 233268150709406946}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ChainNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 4304924924239076}
   - component: {fileID: 50259883076676898}
   - component: {fileID: 233218609317674936}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ChainNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   - component: {fileID: 4049123300754316}
   - component: {fileID: 50080219390216054}
   - component: {fileID: 233828400556609462}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ChainNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 212597290291488162}
   - component: {fileID: 70897195294919148}
   - component: {fileID: 61598766748552734}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   - component: {fileID: 4160705379985162}
   - component: {fileID: 212030575830792792}
   - component: {fileID: 58449537694876466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 4195619986735692}
   - component: {fileID: 50267308931898098}
   - component: {fileID: 233850391536509738}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ChainNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   - component: {fileID: 4921206733008510}
   - component: {fileID: 212342253777329564}
   - component: {fileID: 58372524124700922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 4059206717348588}
   - component: {fileID: 212000888203279392}
   - component: {fileID: 114115747583907700}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Thrusters-Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,7 +210,7 @@ GameObject:
   - component: {fileID: 50858389044292722}
   - component: {fileID: 255198319840992378}
   - component: {fileID: 60362179049376310}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Trap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -227,7 +227,7 @@ GameObject:
   - component: {fileID: 4705939718567280}
   - component: {fileID: 212336677051421850}
   - component: {fileID: 58041434002267966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 4966452069670334}
   - component: {fileID: 212577159711786040}
   - component: {fileID: 70691780245414402}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Thrusters
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,7 +261,7 @@ GameObject:
   - component: {fileID: 4757333617096368}
   - component: {fileID: 212010463455633792}
   - component: {fileID: 61232783139981316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite-TrapClosed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 4276153838127664}
   - component: {fileID: 212390096351146436}
   - component: {fileID: 58232125040192056}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,8 +295,8 @@ GameObject:
   - component: {fileID: 4002013504987822}
   - component: {fileID: 114684806764473316}
   - component: {fileID: 210198621501023024}
-  m_Layer: 0
-  m_Name: Player0
+  m_Layer: 8
+  m_Name: Robot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -312,7 +312,7 @@ GameObject:
   - component: {fileID: 4269004647166898}
   - component: {fileID: 212239936022175242}
   - component: {fileID: 58415560410589892}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 4090241965524500}
   - component: {fileID: 50768117834915226}
   - component: {fileID: 233764969708026496}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ChainNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +345,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4842783523529432}
   - component: {fileID: 50600443315989420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Robot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 4008758211755900}
   - component: {fileID: 212523063486703902}
   - component: {fileID: 58539295897416540}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -379,7 +379,7 @@ GameObject:
   - component: {fileID: 4775604125950884}
   - component: {fileID: 212403818634614880}
   - component: {fileID: 60280968912983590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite-TrapOpen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +396,7 @@ GameObject:
   - component: {fileID: 4510297000025408}
   - component: {fileID: 50439780151604968}
   - component: {fileID: 233747534089172934}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ChainNode
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -998,14 +998,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.46, y: -0.24}
-      - {x: 0.55, y: -0.17}
+    - - {x: 0.55, y: -0.17}
       - {x: 0.55, y: 0.09}
       - {x: 0.1, y: 0.18}
       - {x: -0.1, y: 0.18}
       - {x: -0.55, y: 0.09}
       - {x: -0.55, y: -0.17}
-      - {x: -0.46, y: -0.24}
       - {x: 0, y: 0}
 --- !u!60 &60362179049376310
 PolygonCollider2D:

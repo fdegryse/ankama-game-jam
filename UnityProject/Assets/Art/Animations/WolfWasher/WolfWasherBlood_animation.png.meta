@@ -1,0 +1,361 @@
+fileFormatVersion: 2
+guid: 72a909da687a21a4386ab85b4d603cf1
+timeCreated: 1513332278
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: giclee_sang-0000
+    21300002: giclee_sang-0001
+    21300004: giclee_sang-0002
+    21300006: giclee_sang-0003
+    21300008: giclee_sang-0004
+    21300010: giclee_sang-0005
+    21300012: giclee_sang-0006
+    21300014: giclee_sang-0007
+    21300016: giclee_sang-0008
+    21300018: giclee_sang-0009
+    21300020: giclee_sang-0010
+    21300022: giclee_sang-0011
+    21300024: giclee_sang-0012
+    21300026: giclee_sang-0013
+    21300028: giclee_sang-0014
+    21300030: giclee_sang-0015
+    21300032: giclee_sang-0016
+    21300034: giclee_sang-0017
+    21300036: giclee_sang-0018
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: giclee_sang-0000
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 352
+        width: 70
+        height: 159
+      alignment: 9
+      pivot: {x: 0.34285715, y: 0.918239}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 254
+        width: 58
+        height: 257
+      alignment: 9
+      pivot: {x: 0.10344828, y: 0.5330739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 32
+        width: 53
+        height: 220
+      alignment: 9
+      pivot: {x: 0.3773585, y: 0.6363636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0003
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 57
+        width: 51
+        height: 195
+      alignment: 9
+      pivot: {x: 0.05882353, y: 0.50769234}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0004
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 210
+        width: 79
+        height: 109
+      alignment: 9
+      pivot: {x: 0.25316456, y: -0.055045873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0005
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 421
+        width: 147
+        height: 90
+      alignment: 9
+      pivot: {x: 0.49659863, y: -0.5222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0006
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 411
+        width: 110
+        height: 100
+      alignment: 9
+      pivot: {x: 0.44545454, y: -0.48}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0007
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 255
+        width: 109
+        height: 95
+      alignment: 9
+      pivot: {x: 0.39449543, y: -0.57894737}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0008
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 390
+        width: 101
+        height: 121
+      alignment: 9
+      pivot: {x: 0.38613862, y: -0.23140496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0009
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 310
+        width: 104
+        height: 99
+      alignment: 9
+      pivot: {x: 0.40384614, y: -0.46464646}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0010
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 321
+        width: 110
+        height: 98
+      alignment: 9
+      pivot: {x: 0.4, y: -0.4489796}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0011
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 26
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 9.5, y: -15}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0012
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 20
+        width: 4
+        height: 4
+      alignment: 9
+      pivot: {x: 9.5, y: -14.75}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 75, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 75, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 75, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 75, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0017
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 75, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: giclee_sang-0018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 75, y: -149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1258 @@
+fileFormatVersion: 2
+guid: 13c8a342c9792504db7c1db607de4392
+timeCreated: 1513330578
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wolf_washer_wolf-0000
+    21300002: wolf_washer_wolf-0001
+    21300004: wolf_washer_wolf-0002
+    21300006: wolf_washer_wolf-0003
+    21300008: wolf_washer_wolf-0004
+    21300010: wolf_washer_wolf-0005
+    21300012: wolf_washer_wolf-0006
+    21300014: wolf_washer_wolf-0007
+    21300016: wolf_washer_wolf-0008
+    21300018: wolf_washer_wolf-0009
+    21300020: wolf_washer_wolf-0010
+    21300022: wolf_washer_wolf-0011
+    21300024: wolf_washer_wolf-0012
+    21300026: wolf_washer_wolf-0013
+    21300028: wolf_washer_wolf-0014
+    21300030: wolf_washer_wolf-0015
+    21300032: wolf_washer_wolf-0016
+    21300034: wolf_washer_wolf-0017
+    21300036: wolf_washer_wolf-0018
+    21300038: wolf_washer_wolf-0019
+    21300040: wolf_washer_wolf-0020
+    21300042: wolf_washer_wolf-0021
+    21300044: wolf_washer_wolf-0022
+    21300046: wolf_washer_wolf-0023
+    21300048: wolf_washer_wolf-0024
+    21300050: wolf_washer_wolf-0025
+    21300052: wolf_washer_wolf-0026
+    21300054: wolf_washer_wolf-0027
+    21300056: wolf_washer_wolf-0028
+    21300058: wolf_washer_wolf-0029
+    21300060: wolf_washer_wolf-0030
+    21300062: wolf_washer_wolf-0031
+    21300064: wolf_washer_wolf-0032
+    21300066: wolf_washer_wolf-0033
+    21300068: wolf_washer_wolf-0034
+    21300070: wolf_washer_wolf-0035
+    21300072: wolf_washer_wolf-0036
+    21300074: wolf_washer_wolf-0037
+    21300076: wolf_washer_wolf-0038
+    21300078: wolf_washer_wolf-0039
+    21300080: wolf_washer_wolf-0040
+    21300082: wolf_washer_wolf-0041
+    21300084: wolf_washer_wolf-0042
+    21300086: wolf_washer_wolf-0043
+    21300088: wolf_washer_wolf-0044
+    21300090: wolf_washer_wolf-0045
+    21300092: wolf_washer_wolf-0046
+    21300094: wolf_washer_wolf-0047
+    21300096: wolf_washer_wolf-0048
+    21300098: wolf_washer_wolf-0049
+    21300100: wolf_washer_wolf-0050
+    21300102: wolf_washer_wolf-0051
+    21300104: wolf_washer_wolf-0052
+    21300106: wolf_washer_wolf-0053
+    21300108: wolf_washer_wolf-0054
+    21300110: wolf_washer_wolf-0055
+    21300112: wolf_washer_wolf-0056
+    21300114: wolf_washer_wolf-0057
+    21300116: wolf_washer_wolf-0058
+    21300118: wolf_washer_wolf-0059
+    21300120: wolf_washer_wolf-0060
+    21300122: wolf_washer_wolf-0061
+    21300124: wolf_washer_wolf-0062
+    21300126: wolf_washer_wolf-0063
+    21300128: wolf_washer_wolf-0064
+    21300130: wolf_washer_wolf-0065
+    21300132: wolf_washer_wolf-0066
+    21300134: wolf_washer_wolf-0067
+    21300136: wolf_washer_wolf-0068
+    21300138: wolf_washer_wolf-0069
+    21300140: wolf_washer_wolf-0070
+    21300142: wolf_washer_wolf-0071
+    21300144: wolf_washer_wolf-0072
+    21300146: wolf_washer_wolf-0073
+    21300148: wolf_washer_wolf-0074
+    21300150: wolf_washer_wolf-0075
+    21300152: wolf_washer_wolf-0076
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0000
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0001
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 223
+        width: 56
+        height: 136
+      alignment: 9
+      pivot: {x: 0.875, y: 0.1764706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0002
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 86
+        width: 71
+        height: 135
+      alignment: 9
+      pivot: {x: 0.6760563, y: -0.1037037}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0003
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 231
+        width: 64
+        height: 131
+      alignment: 9
+      pivot: {x: 0.890625, y: -0.2519084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0004
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 229
+        width: 76
+        height: 133
+      alignment: 9
+      pivot: {x: 0.68421054, y: -0.37593985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0005
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 244
+        width: 77
+        height: 126
+      alignment: 9
+      pivot: {x: 0.77922076, y: -0.43650794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0006
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 110
+        width: 69
+        height: 127
+      alignment: 9
+      pivot: {x: 0.76811594, y: -0.42519686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0007
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 244
+        width: 77
+        height: 126
+      alignment: 9
+      pivot: {x: 0.77922076, y: -0.43650794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0008
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 110
+        width: 69
+        height: 127
+      alignment: 9
+      pivot: {x: 0.76811594, y: -0.42519686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0009
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 244
+        width: 77
+        height: 126
+      alignment: 9
+      pivot: {x: 0.77922076, y: -0.43650794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0010
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 110
+        width: 69
+        height: 127
+      alignment: 9
+      pivot: {x: 0.76811594, y: -0.42519686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0011
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 244
+        width: 77
+        height: 126
+      alignment: 9
+      pivot: {x: 0.77922076, y: -0.43650794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0012
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 69
+        width: 67
+        height: 138
+      alignment: 9
+      pivot: {x: 0.76119405, y: -0.29710144}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0013
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 16
+        width: 75
+        height: 154
+      alignment: 9
+      pivot: {x: 0.76, y: -0.19480519}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0014
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 336
+        width: 61
+        height: 163
+      alignment: 9
+      pivot: {x: 0.73770493, y: -0.036809817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 67
+        width: 56
+        height: 191
+      alignment: 9
+      pivot: {x: 0.83928573, y: 0.16753927}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0016
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 260
+        width: 56
+        height: 239
+      alignment: 9
+      pivot: {x: 0.73214287, y: 0.33054394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0017
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0018
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 73
+        height: 62
+      alignment: 9
+      pivot: {x: 0.7671233, y: -0.61290324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0020
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 251
+        width: 88
+        height: 122
+      alignment: 9
+      pivot: {x: 0.8636364, y: 0.024590164}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0021
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 372
+        width: 77
+        height: 127
+      alignment: 9
+      pivot: {x: 0.9480519, y: -0.13385826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0022
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 261
+        width: 74
+        height: 115
+      alignment: 9
+      pivot: {x: 1, y: -0.26956522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0023
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 2
+        width: 76
+        height: 115
+      alignment: 9
+      pivot: {x: 0.9605263, y: -0.33043477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0024
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1
+        width: 71
+        height: 116
+      alignment: 9
+      pivot: {x: 1, y: -0.37931034}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0025
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 129
+        width: 71
+        height: 120
+      alignment: 9
+      pivot: {x: 0.91549295, y: -0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0026
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 341
+        width: 76
+        height: 158
+      alignment: 9
+      pivot: {x: 0.81578946, y: -0.08227848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0027
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 361
+        width: 74
+        height: 138
+      alignment: 9
+      pivot: {x: 0.7702703, y: -0.23188406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0028
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 71
+        width: 84
+        height: 136
+      alignment: 9
+      pivot: {x: 0.72619045, y: -0.2720588}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0029
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 239
+        width: 94
+        height: 128
+      alignment: 9
+      pivot: {x: 0.69148934, y: -0.3515625}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0030
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 375
+        width: 99
+        height: 124
+      alignment: 9
+      pivot: {x: 0.67676765, y: -0.42741936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0031
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 119
+        width: 120
+        height: 123
+      alignment: 9
+      pivot: {x: 0.675, y: -0.41463414}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0032
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 96
+        width: 129
+        height: 131
+      alignment: 9
+      pivot: {x: 0.6511628, y: -0.39694658}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0033
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 378
+        width: 118
+        height: 121
+      alignment: 9
+      pivot: {x: 0.55932206, y: -0.4214876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0034
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 369
+        width: 117
+        height: 130
+      alignment: 9
+      pivot: {x: 0.5470086, y: -0.35384616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0035
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 364
+        width: 116
+        height: 135
+      alignment: 9
+      pivot: {x: 0.5086207, y: -0.31851852}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0036
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 209
+        width: 117
+        height: 140
+      alignment: 9
+      pivot: {x: 0.47008547, y: -0.2857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0037
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 351
+        width: 110
+        height: 148
+      alignment: 9
+      pivot: {x: 0.46363637, y: -0.21621622}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0038
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 347
+        width: 109
+        height: 152
+      alignment: 9
+      pivot: {x: 0.44954127, y: -0.15789473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0039
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 172
+        width: 106
+        height: 162
+      alignment: 9
+      pivot: {x: 0.3962264, y: -0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0040
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 194
+        width: 105
+        height: 151
+      alignment: 9
+      pivot: {x: 0.31428573, y: -0.059602648}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0041
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 31
+        width: 96
+        height: 152
+      alignment: 9
+      pivot: {x: 0.27083334, y: 0.013157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0042
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 50
+        width: 82
+        height: 142
+      alignment: 9
+      pivot: {x: 0.20731707, y: -0.028169014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0043
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 185
+        width: 74
+        height: 154
+      alignment: 9
+      pivot: {x: 0.10810811, y: 0.103896104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0044
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0045
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0046
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0047
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0048
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0049
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0050
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0051
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0052
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0053
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0054
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 326
+        width: 42
+        height: 84
+      alignment: 9
+      pivot: {x: -0.5952381, y: -0.011904762}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0055
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 4
+        width: 61
+        height: 90
+      alignment: 9
+      pivot: {x: -0.5081967, y: -0.06666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0056
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 150
+        width: 40
+        height: 84
+      alignment: 9
+      pivot: {x: -0.55, y: -0.35714287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0057
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 236
+        width: 56
+        height: 88
+      alignment: 9
+      pivot: {x: -0.4642857, y: -0.42045453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0058
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 69
+        width: 43
+        height: 101
+      alignment: 9
+      pivot: {x: -0.55813956, y: -0.4059406}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0059
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 34
+        width: 40
+        height: 111
+      alignment: 9
+      pivot: {x: -0.325, y: -0.2972973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0060
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 412
+        width: 43
+        height: 87
+      alignment: 9
+      pivot: {x: -0.3255814, y: -0.6321839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0061
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 2
+        width: 45
+        height: 106
+      alignment: 9
+      pivot: {x: -0.06666667, y: -0.35849056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0062
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 273
+        width: 40
+        height: 109
+      alignment: 9
+      pivot: {x: -0.175, y: -0.32110092}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0063
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 149
+        width: 41
+        height: 85
+      alignment: 9
+      pivot: {x: 0.17073171, y: -0.69411767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0064
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 5
+        width: 41
+        height: 89
+      alignment: 9
+      pivot: {x: 0.07317073, y: -0.6179775}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0065
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 150
+        width: 44
+        height: 109
+      alignment: 9
+      pivot: {x: 0.45454547, y: -0.3027523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0066
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 391
+        width: 41
+        height: 108
+      alignment: 9
+      pivot: {x: 0.31707317, y: -0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0067
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 384
+        width: 42
+        height: 115
+      alignment: 9
+      pivot: {x: 0.64285713, y: -0.2521739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0068
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 62
+        width: 41
+        height: 85
+      alignment: 9
+      pivot: {x: 0.5609756, y: -0.69411767}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0069
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 259
+        width: 40
+        height: 117
+      alignment: 9
+      pivot: {x: 0.9, y: -0.22222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0070
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1
+        width: 39
+        height: 107
+      alignment: 9
+      pivot: {x: 0.84615386, y: -0.47663552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0071
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 3
+        width: 42
+        height: 91
+      alignment: 9
+      pivot: {x: 0.97619045, y: -0.5494506}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0072
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 147
+        width: 41
+        height: 112
+      alignment: 9
+      pivot: {x: 0.902439, y: -0.22321428}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0073
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 15
+        width: 44
+        height: 112
+      alignment: 9
+      pivot: {x: 1.1818181, y: -0.10714286}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0074
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 40
+        width: 40
+        height: 108
+      alignment: 9
+      pivot: {x: 1.075, y: -0.06481481}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0075
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 1
+        width: 53
+        height: 83
+      alignment: 9
+      pivot: {x: 1.1886792, y: -0.14457831}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_wolf-0076
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 338
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 275, y: -274}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

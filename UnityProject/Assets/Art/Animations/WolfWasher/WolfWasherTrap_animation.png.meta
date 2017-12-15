@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: 091959f3214379b4cae1681ade0b39f7
+timeCreated: 1513331828
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: wolf_washer_trap-0000
+    21300002: wolf_washer_trap-0001
+    21300004: wolf_washer_trap-0002
+    21300006: wolf_washer_trap-0003
+    21300008: wolf_washer_trap-0004
+    21300010: wolf_washer_trap-0005
+    21300012: wolf_washer_trap-0006
+    21300014: wolf_washer_trap-0007
+    21300016: wolf_washer_trap-0008
+    21300018: wolf_washer_trap-0009
+    21300020: wolf_washer_trap-0010
+    21300022: wolf_washer_trap-0011
+    21300024: wolf_washer_trap-0012
+    21300026: wolf_washer_trap-0013
+    21300028: wolf_washer_trap-0014
+    21300030: wolf_washer_trap-0015
+    21300032: wolf_washer_trap-0016
+    21300034: wolf_washer_trap-0017
+    21300036: wolf_washer_trap-0018
+    21300038: wolf_washer_trap-0019
+    21300040: wolf_washer_trap-0020
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wolf_washer_trap-0000
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 419
+        width: 133
+        height: 92
+      alignment: 9
+      pivot: {x: 0.5263158, y: 0.70652175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0001
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 256
+        width: 120
+        height: 100
+      alignment: 9
+      pivot: {x: 0.475, y: 0.66}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0002
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 234
+        width: 126
+        height: 116
+      alignment: 9
+      pivot: {x: 0.52380955, y: 0.5344828}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0003
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 441
+        width: 132
+        height: 70
+      alignment: 9
+      pivot: {x: 0.49242425, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0004
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 258
+        width: 125
+        height: 81
+      alignment: 9
+      pivot: {x: 0.448, y: 0.11111111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0005
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 170
+        width: 120
+        height: 84
+      alignment: 9
+      pivot: {x: 0.49166667, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0006
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 358
+        width: 128
+        height: 81
+      alignment: 9
+      pivot: {x: 0.4375, y: 0.16049382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0007
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 114
+        width: 120
+        height: 77
+      alignment: 9
+      pivot: {x: 0.475, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0008
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 173
+        width: 124
+        height: 83
+      alignment: 9
+      pivot: {x: 0.5, y: 0.10843374}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 433
+        width: 141
+        height: 78
+      alignment: 9
+      pivot: {x: 0.4893617, y: 0.102564104}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0010
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 274
+        width: 125
+        height: 82
+      alignment: 9
+      pivot: {x: 0.456, y: 0.09756097}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0011
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 193
+        width: 125
+        height: 79
+      alignment: 9
+      pivot: {x: 0.448, y: 0.07594936}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0012
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 341
+        width: 127
+        height: 76
+      alignment: 9
+      pivot: {x: 0.52755904, y: 0.13157895}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 119
+        height: 86
+      alignment: 9
+      pivot: {x: 0.5126051, y: 0.24418604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 352
+        width: 132
+        height: 79
+      alignment: 9
+      pivot: {x: 0.45454547, y: 0.48101267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0015
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 99
+        width: 120
+        height: 72
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.8611111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0016
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 15
+        width: 114
+        height: 82
+      alignment: 9
+      pivot: {x: 0.49122807, y: 0.63414633}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0017
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 16
+        width: 115
+        height: 81
+      alignment: 9
+      pivot: {x: 0.51304346, y: 0.5925926}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 153
+        width: 122
+        height: 79
+      alignment: 9
+      pivot: {x: 0.45901638, y: 0.6455696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0019
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 99
+        width: 120
+        height: 72
+      alignment: 9
+      pivot: {x: 0.45833334, y: 0.8611111}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: wolf_washer_trap-0020
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 430
+        width: 1
+        height: 1
+      alignment: 9
+      pivot: {x: 75, y: -74}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

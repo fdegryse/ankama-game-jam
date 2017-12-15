@@ -1,49 +1,74 @@
-﻿using System.Collections.Generic;
+﻿using JetBrains.Annotations;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class RagdollWolf : MonoBehaviour
 {
-    private readonly Dictionary<Collider2D, List<Joint2D>> m_activeTrapJoints = new Dictionary<Collider2D, List<Joint2D>>(2);
+	[UsedImplicitly]
+	public float washerActivationDelay = 1f;
 
-    public bool AttachToTrap(Collider2D hit, Collider2D trapCollider)
-    {
-        Rigidbody2D hitRigidbody = hit.attachedRigidbody;
+	private readonly Dictionary<Collider2D, List<Joint2D>> m_activeTrapJoints = new Dictionary<Collider2D, List<Joint2D>>(2);
 
-        var fixedJoint = hitRigidbody.gameObject.AddComponent<FixedJoint2D>();
-        fixedJoint.connectedBody = trapCollider.attachedRigidbody;
-        
-        List<Joint2D> jointList;
-        if (m_activeTrapJoints.TryGetValue(trapCollider, out jointList))
-        {
-            jointList.Add(fixedJoint);
-        }
-        else
-        {
-            jointList = new List<Joint2D>
-            {
-                fixedJoint
-            };
-            m_activeTrapJoints.Add(trapCollider, jointList);
-        }
+	public bool AttachToTrap(Collider2D hit, Collider2D trapCollider)
+	{
+		Rigidbody2D hitRigidbody = hit.attachedRigidbody;
 
-        return true;
-    }
+		var fixedJoint = hitRigidbody.gameObject.AddComponent<FixedJoint2D>();
+		fixedJoint.connectedBody = trapCollider.attachedRigidbody;
+		
+		List<Joint2D> jointList;
+		if (m_activeTrapJoints.TryGetValue(trapCollider, out jointList))
+		{
+			jointList.Add(fixedJoint);
+		}
+		else
+		{
+			jointList = new List<Joint2D>
+			{
+				fixedJoint
+			};
+			m_activeTrapJoints.Add(trapCollider, jointList);
+		}
 
-    public bool ReleaseFromTrap(Collider2D trapCollider)
-    {
-        List<Joint2D> jointList;
-        if (m_activeTrapJoints.TryGetValue(trapCollider, out jointList))
-        {
-            foreach (Joint2D joint2D in jointList)
-            {
-                Destroy(joint2D);
-            }
+		return true;
+	}
 
-            jointList.Clear();
+	public bool ReleaseFromTrap(Collider2D trapCollider)
+	{
+		List<Joint2D> jointList;
+		if (m_activeTrapJoints.TryGetValue(trapCollider, out jointList))
+		{
+			foreach (Joint2D joint2D in jointList)
+			{
+				Destroy(joint2D);
+			}
 
-            return true;
-        }
+			jointList.Clear();
 
-        return false;
-    }
+			return true;
+		}
+
+		return false;
+	}
+
+	public void PutInWasher(WolfWasher wolfWasher)
+	{
+		StartCoroutine(PutInWasherRoutine(wolfWasher));
+	}
+
+	private IEnumerator PutInWasherRoutine(WolfWasher wolfWasher)
+	{
+		yield return new WaitForSeconds(washerActivationDelay);
+
+		wolfWasher.enabled = true;
+
+		do
+		{
+			yield return null;
+		}
+		while (wolfWasher.enabled);
+
+		Destroy(gameObject);
+	}
 }
