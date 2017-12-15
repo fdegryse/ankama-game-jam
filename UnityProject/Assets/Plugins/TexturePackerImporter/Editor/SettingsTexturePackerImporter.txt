@@ -1,0 +1,24 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/Art/Animations/WolfWasher/WolfWasher_animation.tpsheet
+- Assets/Art/Animations/WolfWasher/WolfWasherBlood_animation.tpsheet
+- Assets/Art/Animations/WolfWasher/WolfWasherLights_animation.tpsheet
+- Assets/Art/Animations/WolfWasher/WolfWasherTrap_animation.tpsheet
+- Assets/Art/Animations/WolfWasher/WolfWasherWolf_animation.tpsheet
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+textureFileNames:
+- Assets/Art/Animations/WolfWasher/WolfWasher_animation.png
+- Assets/Art/Animations/WolfWasher/WolfWasherBlood_animation.png
+- Assets/Art/Animations/WolfWasher/WolfWasherLights_animation.png
+- Assets/Art/Animations/WolfWasher/WolfWasherTrap_animation.png
+- Assets/Art/Animations/WolfWasher/WolfWasherWolf_animation.png
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+normalmapFileNames:
+- 
+- 
+- 
+- 
+- 
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+enableDebugOutput: 0
