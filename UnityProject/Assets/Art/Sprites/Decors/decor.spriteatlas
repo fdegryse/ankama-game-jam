@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: decor
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 2
+      generateMipMaps: 1
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: d95ec430ef7ca844080ebdda3406348a, type: 3}
+    - {fileID: 2800000, guid: d6d5eb3a109bca342b733eec4dedebab, type: 3}
+    - {fileID: 2800000, guid: af0bbcdd5d862c849aebbc6b1695c56b, type: 3}
+    - {fileID: 2800000, guid: 3701c4c1e9693f04490bd79d3a35cce2, type: 3}
+    - {fileID: 2800000, guid: 3bf5bbbf1cf7fb742b1fc7a6295695c2, type: 3}
+    - {fileID: 2800000, guid: 679077c001cc8fa438cc7d3884ad5794, type: 3}
+    - {fileID: 2800000, guid: 0619b744b07e4da4db6a8e615d96a6fc, type: 3}
+    - {fileID: 2800000, guid: 92d325c541bf4c247aa510c15b2e2783, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 679077c001cc8fa438cc7d3884ad5794, type: 3}
+  - {fileID: 21300000, guid: 0619b744b07e4da4db6a8e615d96a6fc, type: 3}
+  - {fileID: 21300000, guid: d6d5eb3a109bca342b733eec4dedebab, type: 3}
+  - {fileID: 21300000, guid: 3701c4c1e9693f04490bd79d3a35cce2, type: 3}
+  - {fileID: 21300000, guid: 3bf5bbbf1cf7fb742b1fc7a6295695c2, type: 3}
+  - {fileID: 21300000, guid: 92d325c541bf4c247aa510c15b2e2783, type: 3}
+  - {fileID: 21300000, guid: af0bbcdd5d862c849aebbc6b1695c56b, type: 3}
+  - {fileID: 21300000, guid: d95ec430ef7ca844080ebdda3406348a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - fond
+  - tronc_1
+  - buisson_gros
+  - feuillage_1_fonce
+  - feuillage_1
+  - tronc_2
+  - buisson_petit
+  - branche
+  m_Tag: decor
+  m_IsVariant: 0
