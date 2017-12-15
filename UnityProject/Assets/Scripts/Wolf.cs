@@ -15,6 +15,9 @@ public class Wolf : MonoBehaviour
 	public RagdollWolf ragdollWolf;
 
 	[UsedImplicitly]
+	public ParticleSystem leavesParticleSystem;
+
+	[UsedImplicitly]
 	public SpriteSheetAnimation apparition;
 	
 	[UsedImplicitly]
@@ -22,6 +25,13 @@ public class Wolf : MonoBehaviour
 
 	[UsedImplicitly]
 	public WolfPart wolfPart;
+
+	[UsedImplicitly]
+	private void Awake()
+	{
+		leavesParticleSystem.transform.SetParent(transform.parent, true);
+		leavesParticleSystem.transform.up = Vector3.up;
+	}
 
 	[UsedImplicitly]
 	private IEnumerator Start()
@@ -46,6 +56,10 @@ public class Wolf : MonoBehaviour
 	public RagdollWolf GetTrapped()
 	{
 		gameObject.SetActive(false);
+
+		leavesParticleSystem.gameObject.SetActive(true);
+		leavesParticleSystem.Stop(true, ParticleSystemStopBehavior.StopEmitting);
+		leavesParticleSystem.Play(true);
 
 		GameObject copyGameObject = Instantiate(ragdollWolf.gameObject);
 		copyGameObject.transform.position = ragdollWolf.transform.position;

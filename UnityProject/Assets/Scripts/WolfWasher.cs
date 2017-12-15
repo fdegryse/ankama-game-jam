@@ -11,10 +11,6 @@ public class WolfWasher : MonoBehaviour
 
 	[UsedImplicitly]
 	public int loopCount;
-	
-	private int m_currentFrame;
-	private int m_loopCount;
-	private float m_timer;
 
 	[UsedImplicitly]
 	public SpriteSheetAnimation[] spriteSheetAnimations;
@@ -36,6 +32,13 @@ public class WolfWasher : MonoBehaviour
 	public float bloodAngleRandomRange;
 
 	[UsedImplicitly]
+	public ParticleSystem furParticleSystem;
+	
+	private int m_currentFrame;
+	private int m_loopCount;
+	private float m_timer;
+
+	[UsedImplicitly]
 	private void OnEnable()
 	{
 		foreach (SpriteSheetAnimation spriteSheetAnimation in spriteSheetAnimations)
@@ -46,6 +49,9 @@ public class WolfWasher : MonoBehaviour
 		m_currentFrame = 0;
 		m_loopCount = 0;
 		m_timer = 0f;
+
+		furParticleSystem.Stop(true, ParticleSystemStopBehavior.StopEmitting);
+		furParticleSystem.Play(true);
 	}
 
 	[UsedImplicitly]

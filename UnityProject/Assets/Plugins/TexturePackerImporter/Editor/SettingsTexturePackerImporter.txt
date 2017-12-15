@@ -1,6 +1,8 @@
 version: 2
 importPivots: 1
 tpsheetFileNames:
+- Assets/Art/Animations/Trap/trap_close.tpsheet
+- Assets/Art/Animations/Trap/trap_open.tpsheet
 - Assets/Art/Animations/Wolf/wolf_head_apparition.tpsheet
 - Assets/Art/Animations/Wolf/wolf_head_loop.tpsheet
 - Assets/Art/Animations/Wolf/wolf_leg_apparition.tpsheet
@@ -14,6 +16,8 @@ tpsheetFileNames:
 - Assets/Art/Animations/WolfWasher/WolfWasherWolf_animation.tpsheet
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 textureFileNames:
+- Assets/Art/Animations/Trap/trap_close.png
+- Assets/Art/Animations/Trap/trap_open.png
 - Assets/Art/Animations/Wolf/wolf_head_apparition.png
 - Assets/Art/Animations/Wolf/wolf_head_loop.png
 - Assets/Art/Animations/Wolf/wolf_leg_apparition.png
@@ -27,6 +31,8 @@ textureFileNames:
 - Assets/Art/Animations/WolfWasher/WolfWasherWolf_animation.png
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 normalmapFileNames:
+- 
+- 
 - 
 - 
 - 

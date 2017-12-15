@@ -32,6 +32,10 @@ public class PlayerController : MonoBehaviour
 
 	[UsedImplicitly] [Range(0f, 10f)] public float trapCooldown;
 
+	[UsedImplicitly] public SpriteSheetAnimation openAnimation;
+
+	[UsedImplicitly] public SpriteSheetAnimation closeAnimation;
+
 	private Player m_player;
 
 	public Player player
@@ -83,17 +87,20 @@ public class PlayerController : MonoBehaviour
 					}
 				}
 				m_trappedWolves.Clear();
+				openAnimation.enabled = true;
 				break;
 			case TrapState.Closed:
 				trapOpen.SetActive(false);
 				trapClosed.SetActive(true);
 				trapClosed.layer = LayerMask.NameToLayer("Robots");
 				m_trapCooldown = trapCooldown;
+				closeAnimation.enabled = true;
 				break;
 			case TrapState.ClosedTrapped:
 				trapOpen.SetActive(false);
 				trapClosed.SetActive(true);
 				trapClosed.layer = LayerMask.NameToLayer("Blocker");
+				closeAnimation.enabled = true;
 				break;
 			default:
 				throw new ArgumentOutOfRangeException("value", value, null);
