@@ -41,6 +41,9 @@ TagManager:
   - name: Level-Background
     uniqueID: 3804781659
     locked: 0
+  - name: Wolves
+    uniqueID: 1371272445
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

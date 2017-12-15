@@ -1,145 +1,244 @@
 ﻿using JetBrains.Annotations;
 using Rewired;
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-	[UsedImplicitly]
-	public int playerId;
+    [UsedImplicitly] public int playerId;
 
-	[Header("Movement")]
+    [Header("Movement")]
 
-	[UsedImplicitly]
-	public Rigidbody2D mainRigidbody;
+    [UsedImplicitly] public Rigidbody2D mainRigidbody;
 
-	[UsedImplicitly]
-	public Transform body;
+    [UsedImplicitly] public Transform body;
 
-	[UsedImplicitly]
-	public Vector2 moveFactor;
+    [UsedImplicitly] public Vector2 moveFactor;
 
-	[UsedImplicitly]
-	public float torqueFactor;
+    [UsedImplicitly] public Vector2 trapThrusterBoost;
 
-	[UsedImplicitly]
-	[Range(0f, 1f)]
-	public float bodyStabilizationFactor;
+    [UsedImplicitly] public float torqueFactor;
 
-	[Header("Trap")]
+    [UsedImplicitly] [Range(0f, 1f)] public float bodyStabilizationFactor;
 
-	[UsedImplicitly]
-	public GameObject trapOpen;
+    [Header("Trap")]
 
-	[UsedImplicitly]
-	public GameObject trapClosed;
+    [UsedImplicitly] public GameObject trapOpen;
 
-	[UsedImplicitly]
-	public Collider2D trapCollider;
+    [UsedImplicitly] public GameObject trapClosed;
 
-	[UsedImplicitly]
-	[Range(0f, 10f)]
-	public float trapCooldown;
-	
-	private Player m_player;
-	public Player player
-	{
-		get { return m_player; }
-	}
+    [UsedImplicitly] public Collider2D trapCollider;
 
-	private bool m_initialized;
-	
-	private enum TrapState
-	{
-		Open,
-		Closed,
-	}
-	private TrapState m_trapState;
-	private float m_trapCooldown;
+    [UsedImplicitly] [Range(0f, 10f)] public float trapCooldown;
 
-	private void Initialize() 
-	{
-		m_player = ReInput.players.GetPlayer(playerId);
-		m_initialized = true;
+    private Player m_player;
 
-		SetTrapState(TrapState.Open);
-	}
+    public Player player
+    {
+        get { return m_player; }
+    }
 
-	private void SetTrapState(TrapState trapState)
-	{
-		switch (trapState)
-		{
-			case TrapState.Open:
-				trapOpen.SetActive(true);
-				trapClosed.SetActive(false);
-				m_trapCooldown = 0f;
-				break;
-			case TrapState.Closed:
-				trapOpen.SetActive(false);
-				trapClosed.SetActive(true);
-				m_trapCooldown = trapCooldown;
-				break;
-			default:
-				throw new ArgumentOutOfRangeException("trapState", trapState, null);
-		}
-	}
+    private bool m_initialized;
 
-	[UsedImplicitly]
-	private void FixedUpdate () 
-	{
-		if (!ReInput.isReady)
-		{
-			return;
-		}
-		if (!m_initialized)
-		{
-			Initialize();
-		}
+    public enum TrapState
+    {
+        Open,
+        Closed,
+        ClosedTrapped
+    }
 
-		float x = m_player.GetAxis("MoveHorizontal");
-		float y = m_player.GetAxis("MoveVertical");
+    private TrapState m_trapState;
+    public TrapState trapState
+    {
+        get { return m_trapState; }
+    }
 
-		x *= moveFactor.x;
-		y *= moveFactor.y;
+    private float m_trapCooldown;
+    private readonly HashSet<RagdollWolf> m_trappedWolves = new HashSet<RagdollWolf>();
+    private readonly Collider2D[] m_trapHitBuffer = new Collider2D[8];
+    private readonly RaycastHit2D[] m_trapHitRaycastBuffer = new RaycastHit2D[8];
 
-		Vector2 moveVector = new Vector2(x, y);
+    private void Initialize()
+    {
+        m_player = ReInput.players.GetPlayer(playerId);
+        m_initialized = true;
 
-		if (moveVector.sqrMagnitude > float.Epsilon)
-		{
-			Vector2 force = moveVector * Time.deltaTime;
-			mainRigidbody.AddForce(force, ForceMode2D.Force);
-		}
+        SetTrapState(TrapState.Open);
+    }
 
-		float angle = Vector3.SignedAngle(Vector3.up, mainRigidbody.transform.up, Vector3.forward);
-		if (Mathf.Abs(angle) > float.Epsilon)
-		{
-			float torque = -angle * torqueFactor * Time.deltaTime;
-			mainRigidbody.AddTorque(torque, ForceMode2D.Force);
-		}
+    private void SetTrapState(TrapState trapState)
+    {
+        switch (trapState)
+        {
+            case TrapState.Open:
+                trapOpen.SetActive(true);
+                trapClosed.SetActive(false);
+                m_trapCooldown = 0f;
+                foreach (RagdollWolf wolf in m_trappedWolves)
+                {
+                    wolf.ReleaseFromTrap(trapCollider);
+                }
+                break;
+            case TrapState.Closed:
+                trapOpen.SetActive(false);
+                trapClosed.SetActive(true);
+                m_trapCooldown = trapCooldown;
+                break;
+            case TrapState.ClosedTrapped:
+                trapOpen.SetActive(false);
+                trapClosed.SetActive(true);
+                break;
+            default:
+                throw new ArgumentOutOfRangeException("trapState", trapState, null);
+        }
 
-		body.up = Vector3.Lerp(Vector3.up, mainRigidbody.transform.up, bodyStabilizationFactor);
-	}
+        m_trapState = trapState;
+    }
 
-	[UsedImplicitly]
-	private void Update()
-	{
-		if (m_trapCooldown <= float.Epsilon)
-		{
-			bool closeTrap = m_player.GetButtonDown("CloseTrap");
-			if (closeTrap)
-			{
-				SetTrapState(TrapState.Closed);
+    [UsedImplicitly]
+    private void FixedUpdate()
+    {
+        if (!ReInput.isReady)
+        {
+            return;
+        }
 
-				// TODO: check trap collider
-			}
-		}
-		else
-		{
-			m_trapCooldown -= Time.deltaTime;
-			if (m_trapCooldown <= float.Epsilon)
-			{
-				SetTrapState(TrapState.Open);
-			}
-		}
-	}
+        if (!m_initialized)
+        {
+            Initialize();
+        }
+
+        float x = m_player.GetAxis("MoveHorizontal");
+        float y = m_player.GetAxis("MoveVertical");
+
+        x *= moveFactor.x;
+        y *= moveFactor.y;
+
+        if (m_trapState == TrapState.ClosedTrapped)
+        {
+            x *= trapThrusterBoost.x;
+            y *= trapThrusterBoost.y;
+        }
+
+        Vector2 moveVector = new Vector2(x, y);
+
+        if (moveVector.sqrMagnitude > float.Epsilon)
+        {
+            Vector2 force = moveVector * Time.deltaTime;
+            mainRigidbody.AddForce(force, ForceMode2D.Force);
+        }
+
+        float angle = Vector3.SignedAngle(Vector3.up, mainRigidbody.transform.up, Vector3.forward);
+        if (Mathf.Abs(angle) > float.Epsilon)
+        {
+            float torque = -angle * torqueFactor * Time.deltaTime;
+            mainRigidbody.AddTorque(torque, ForceMode2D.Force);
+        }
+
+        body.up = Vector3.Lerp(Vector3.up, mainRigidbody.transform.up, bodyStabilizationFactor);
+    }
+
+    [UsedImplicitly]
+    private void Update()
+    {
+        switch (m_trapState)
+        {
+            case TrapState.Open:
+            {
+                bool closeTrap = m_player.GetButtonDown("CloseTrap");
+                if (closeTrap)
+                {
+                    ContactFilter2D contactFilter2D = new ContactFilter2D();
+
+                    int trapHitCount = trapCollider.OverlapCollider(contactFilter2D, m_trapHitBuffer);
+                    int raycastHitCount = trapCollider.Raycast(-trapCollider.transform.up, contactFilter2D, m_trapHitRaycastBuffer);
+
+                    RagdollWolf closestHitWolf = null;
+                    Collider2D closestHitCollider = null;
+                    float closestHitDistance = float.MaxValue;
+
+                    for (int i = 0; i < trapHitCount; ++i)
+                    {
+                        Collider2D hit = m_trapHitBuffer[i];
+
+                        var hitWolf = hit.GetComponentInParent<RagdollWolf>();
+                        if (null != hitWolf)
+                        {
+                            for (int j = 0; j < raycastHitCount; ++j)
+                            {
+                                RaycastHit2D raycastHit = m_trapHitRaycastBuffer[j];
+                                if (raycastHit.collider == hit)
+                                {
+                                    float raycastHitDistance = raycastHit.distance;
+                                    if (raycastHitDistance < closestHitDistance)
+                                    {
+                                        closestHitWolf = hitWolf;
+                                        closestHitCollider = hit;
+                                        closestHitDistance = raycastHitDistance;
+                                    }
+                                    break;
+                                }
+                            }
+                        }
+                    }
+
+                    if (null != closestHitCollider)
+                    {
+                        if (closestHitWolf.AttachToTrap(closestHitCollider, trapCollider))
+                        {
+                            m_trappedWolves.Add(closestHitWolf);
+
+                            SetTrapState(TrapState.ClosedTrapped);
+                        }
+                    }
+
+                    if (m_trapState == TrapState.Open)
+                    {
+                        SetTrapState(TrapState.Closed);
+                    }
+                }
+            }
+            break;
+
+            case TrapState.Closed:
+            {
+                m_trapCooldown -= Time.deltaTime;
+                if (m_trapCooldown <= float.Epsilon)
+                {
+                    bool holdTrap = m_player.GetButton("CloseTrap");
+                    if (!holdTrap)
+                    {
+                        SetTrapState(TrapState.Open);
+                    }
+                }
+            }
+            break;
+
+            case TrapState.ClosedTrapped:
+            {
+                m_trapCooldown -= Time.deltaTime;
+                if (m_trapCooldown <= float.Epsilon)
+                {
+                    bool holdTrap = m_player.GetButton("CloseTrap");
+                    if (!holdTrap)
+                    {
+                        SetTrapState(TrapState.Open);
+                    }
+                }
+            }
+            break;
+
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+        if (m_trapCooldown <= float.Epsilon)
+        {
+            
+        }
+        else
+        {
+            
+        }
+    }
 }

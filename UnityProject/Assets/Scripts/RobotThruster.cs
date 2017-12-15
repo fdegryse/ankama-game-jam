@@ -10,7 +10,10 @@ public class RobotThruster : MonoBehaviour
 	[UsedImplicitly]
 	public AnimationCurve alphaCurve;
 
-	private SpriteRenderer m_spriteRenderer;
+    [UsedImplicitly]
+    public float boostFactor;
+
+    private SpriteRenderer m_spriteRenderer;
 	private PlayerController m_playerController;
 	private Vector3 m_originalLocalScale;
 
@@ -33,7 +36,12 @@ public class RobotThruster : MonoBehaviour
 		float scaleY = verticalScaleCurve.Evaluate(y);
 		float alpha = alphaCurve.Evaluate(y);
 
-		Vector3 localScale = m_originalLocalScale;
+	    if (m_playerController.trapState == PlayerController.TrapState.ClosedTrapped)
+	    {
+	        scaleY *= boostFactor;
+	    }
+
+        Vector3 localScale = m_originalLocalScale;
 		localScale.y *= scaleY;
 		transform.localScale = localScale;
 

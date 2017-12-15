@@ -13,6 +13,9 @@ public class RobotMiniThruster : MonoBehaviour
 	[UsedImplicitly]
 	public bool reverseX;
 
+    [UsedImplicitly]
+    public float boostFactor;
+
 	private SpriteRenderer m_spriteRenderer;
 	private PlayerController m_playerController;
 	private Vector3 m_originalLocalScale;
@@ -38,14 +41,17 @@ public class RobotMiniThruster : MonoBehaviour
 		float scaleY = verticalScaleCurve.Evaluate(f);
 		float alpha = alphaCurve.Evaluate(f);
 
-		Vector3 localScale = m_originalLocalScale;
+	    if (m_playerController.trapState == PlayerController.TrapState.ClosedTrapped)
+	    {
+	        scaleY *= boostFactor;
+	    }
+
+        Vector3 localScale = m_originalLocalScale;
 		localScale.y *= scaleY;
 		transform.localScale = localScale;
 
 		Color c = m_spriteRenderer.color;
 		c.a = alpha;
 		m_spriteRenderer.color = c;
-
-
 	}
 }
