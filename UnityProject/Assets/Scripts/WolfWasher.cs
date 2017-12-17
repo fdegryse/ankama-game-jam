@@ -3,36 +3,27 @@ using UnityEngine;
 
 public class WolfWasher : MonoBehaviour
 {
-	[UsedImplicitly]
-	public int frameRate = 15;
+	[UsedImplicitly] public PlayerController associatedPlayer;
 
-	[UsedImplicitly]
-	public int fullAnimationFrameCount;
+	[UsedImplicitly] public int frameRate = 15;
 
-	[UsedImplicitly]
-	public int loopCount;
+	[UsedImplicitly] public int fullAnimationFrameCount;
 
-	[UsedImplicitly]
-	public SpriteSheetAnimation[] spriteSheetAnimations;
+	[UsedImplicitly] public int loopCount;
 
-	[UsedImplicitly]
-	public SpriteSheetAnimation bloodSpriteSheetAnimation;
+	[UsedImplicitly] public SpriteSheetAnimation[] spriteSheetAnimations;
 
-	[UsedImplicitly]
-	public SpriteSheetAnimation trapSpriteSheetAnimation;
+	[UsedImplicitly] public SpriteSheetAnimation bloodSpriteSheetAnimation;
 
-	[UsedImplicitly]
-	[Range(0f, 1f)]
-	public float bloodRandomFactor;
+	[UsedImplicitly] public SpriteSheetAnimation trapSpriteSheetAnimation;
 
-	[UsedImplicitly]
-	public float bloodPositionRandomRange;
+	[UsedImplicitly][Range(0f, 1f)] public float bloodRandomFactor;
 
-	[UsedImplicitly]
-	public float bloodAngleRandomRange;
+	[UsedImplicitly] public float bloodPositionRandomRange;
 
-	[UsedImplicitly]
-	public ParticleSystem furParticleSystem;
+	[UsedImplicitly] public float bloodAngleRandomRange;
+
+	[UsedImplicitly] public ParticleSystem furParticleSystem;
 	
 	private int m_currentFrame;
 	private int m_loopCount;

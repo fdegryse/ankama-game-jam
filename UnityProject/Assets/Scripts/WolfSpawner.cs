@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class WolfSpawner : MonoBehaviour
 {
-	[UsedImplicitly]
-	public float delayBetweenSpawns = 2f;
+	[UsedImplicitly] public GameObject startGameUI;
+
+	[UsedImplicitly] public float delayBetweenSpawns = 2f;
 
 	private Wolf[] m_wolves;
 	
@@ -22,10 +23,11 @@ public class WolfSpawner : MonoBehaviour
 	[UsedImplicitly]
 	private IEnumerator Start()
 	{
-		for (int i = 3; i >= 0; --i)
-		{
-			yield return new WaitForSecondsRealtime(1f);
-		}
+		startGameUI.SetActive(true);
+		
+		yield return new WaitForSecondsRealtime(3f);
+
+		startGameUI.SetActive(false);
 
 		do
 		{

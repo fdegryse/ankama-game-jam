@@ -76,8 +76,7 @@ public class RagdollWolf : MonoBehaviour
         int frame = Time.frameCount;
 
         // Release current joint from other player
-
-        Debug.Log(frame);
+        
         TrapData.ForceReleaseResult forceReleaseResult = m_trapDatas[otherPlayerIndex].ForceRelease(frame);
         if (forceReleaseResult == TrapData.ForceReleaseResult.Challenged)
         {
@@ -130,6 +129,7 @@ public class RagdollWolf : MonoBehaviour
 
         Destroy(gameObject);
 
+        wolfWasher.associatedPlayer.IncrementScore();
         wolfWasher.enabled = true;
     }
 }

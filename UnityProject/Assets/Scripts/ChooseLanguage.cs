@@ -5,24 +5,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class ChooseLanguage : MonoBehaviour
+public enum Language
 {
-    public enum Language
-    {
-        English,
-        French
-    };
+    English,
+    French
+};
 
+public static class ChoosenLanguage
+{
     public static Language currentLanguage;
 
-    public Image en;
-    public Image fr;
-
-    public GameObject instructionsEn;
-    public GameObject instructionsFr;
-
-    [UsedImplicitly]
-    private void Awake()
+    static ChoosenLanguage()
     {
         switch (Application.systemLanguage)
         {
@@ -34,8 +27,21 @@ public class ChooseLanguage : MonoBehaviour
                 currentLanguage = Language.English;
                 break;
         }
+    }
+}
 
-        switch (currentLanguage)
+public class ChooseLanguage : MonoBehaviour
+{
+   public Image en;
+    public Image fr;
+
+    public GameObject instructionsEn;
+    public GameObject instructionsFr;
+
+    [UsedImplicitly]
+    private void Awake()
+    {
+        switch (ChoosenLanguage.currentLanguage)
         {
             case Language.English:
                 en.color = new Color(1f, 1f, 1f, 1f);
@@ -69,7 +75,7 @@ public class ChooseLanguage : MonoBehaviour
             float hAxis = player.GetAxis("MoveHorizontal");
             if (hAxis < -buttonThreshold)
             {
-                currentLanguage = Language.English;
+                ChoosenLanguage.currentLanguage = Language.English;
                 en.color = new Color(1f, 1f, 1f, 1f);
                 fr.color = new Color(1f, 1f, 1f, 0.5f);
                 instructionsEn.SetActive(true);
@@ -78,7 +84,7 @@ public class ChooseLanguage : MonoBehaviour
             else 
             if (hAxis > buttonThreshold)
             {
-                currentLanguage = Language.French;
+                ChoosenLanguage.currentLanguage = Language.French;
                 en.color = new Color(1f, 1f, 1f, 0.5f);
                 fr.color = new Color(1f, 1f, 1f, 1f);
                 instructionsEn.SetActive(false);
@@ -87,7 +93,7 @@ public class ChooseLanguage : MonoBehaviour
             else
             if (player.GetButtonDown("ChooseLanguage"))
             {
-                switch (currentLanguage)
+                switch (ChoosenLanguage.currentLanguage)
                 {
                     case Language.English:
                         SceneManager.LoadScene("intro_en", LoadSceneMode.Single);

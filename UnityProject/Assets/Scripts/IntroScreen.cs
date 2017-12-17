@@ -28,7 +28,7 @@ public class IntroScreen : MonoBehaviour
 
     private bool m_toCharacterSelectScreen;
 
-    private int[] m_controllerPlayerIndices = new int[2];
+    private readonly int[] m_controllerPlayerIndices = new int[2];
 
     [UsedImplicitly]
     public void Awake()
@@ -231,7 +231,7 @@ public class IntroScreen : MonoBehaviour
             for (int i = 0; i < playerCount; ++i)
             {
                 Player player = playerHelper.GetPlayer(i);
-                if (player.GetAnyButtonDown())
+                if (player.GetButtonDown("StartGame"))
                 {
                     m_toCharacterSelectScreen = true;
                     StartCoroutine(GoToCharacterSelectScreen());

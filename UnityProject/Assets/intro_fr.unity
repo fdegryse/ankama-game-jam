@@ -3234,7 +3234,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Appuyez sur un bouton pour jouer
+  m_Text: Appuyez sur START
 --- !u!222 &2059230078
 CanvasRenderer:
   m_ObjectHideFlags: 0

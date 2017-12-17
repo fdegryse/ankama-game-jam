@@ -7,6 +7,10 @@ public class PlayerController : MonoBehaviour
 {
 	[UsedImplicitly] public int playerId;
 
+	[UsedImplicitly] public PlayerScore scoreUI;
+
+	[UsedImplicitly] public GameEndUI gameEndUI;
+
 	[Header("Movement")]
 
 	[UsedImplicitly] public Rigidbody2D mainRigidbody;
@@ -42,6 +46,7 @@ public class PlayerController : MonoBehaviour
 	}
 
 	private bool m_initialized;
+	private int m_score;
 
 	public enum TrapState
 	{
@@ -63,7 +68,7 @@ public class PlayerController : MonoBehaviour
 
 	private void Initialize()
 	{
-	    int playerControllerIndex = PlayerAssignation.GetPlayerControllerIndex(playerId);
+		int playerControllerIndex = PlayerAssignation.GetPlayerControllerIndex(playerId);
 
 		m_player = ReInput.players.GetPlayer(playerControllerIndex);
 		m_initialized = true;
@@ -214,6 +219,18 @@ public class PlayerController : MonoBehaviour
 		}
 
 		SetTrapState(TrapState.Open);
+	}
+
+	public void IncrementScore()
+	{
+		if (gameEndUI.gameObject.activeSelf)
+		{
+			return;
+		}
+
+		++m_score;
+		scoreUI.SetScore(m_score);
+		gameEndUI.SetPlayerScore(playerId, m_score);
 	}
 
 	private bool TryCatchWolf(out RagdollWolf caughtRagdollWolf, out Collider2D hitCollider)
