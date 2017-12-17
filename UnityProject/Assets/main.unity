@@ -1095,7 +1095,7 @@ EdgeCollider2D:
   m_GameObject: {fileID: 621356922}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 945c9d324ef910d4cbeeff6daafe6050, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -2734,11 +2734,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 70691780245414402, guid: 204a5aecf216ca44f9ff02928a3ed32e,
-        type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 132f298d75ceae548a0d273870783923, type: 2}
     - target: {fileID: 1695493224145186, guid: 204a5aecf216ca44f9ff02928a3ed32e, type: 2}
       propertyPath: m_Name
       value: Player0
@@ -3687,28 +3682,6 @@ MonoBehaviour:
       - _actionCategoryId: 0
         _actionId: -1
         _elementType: 1
-        _elementIdentifierId: 10
-        _axisRange: 0
-        _invert: 0
-        _axisContribution: 0
-        _keyboardKeyCode: 0
-        _modifierKey1: 0
-        _modifierKey2: 0
-        _modifierKey3: 0
-      - _actionCategoryId: 0
-        _actionId: -1
-        _elementType: 1
-        _elementIdentifierId: 12
-        _axisRange: 0
-        _invert: 0
-        _axisContribution: 0
-        _keyboardKeyCode: 0
-        _modifierKey1: 0
-        _modifierKey2: 0
-        _modifierKey3: 0
-      - _actionCategoryId: 0
-        _actionId: -1
-        _elementType: 1
         _elementIdentifierId: 19
         _axisRange: 0
         _invert: 0
@@ -3777,7 +3750,7 @@ MonoBehaviour:
     customControllerMaps: []
     customControllers: []
     playerIdCounter: 3
-    actionIdCounter: 3
+    actionIdCounter: 5
     actionCategoryIdCounter: 1
     inputBehaviorIdCounter: 1
     mapCategoryIdCounter: 1
