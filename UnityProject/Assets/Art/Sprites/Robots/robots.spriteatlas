@@ -5,7 +5,7 @@ SpriteAtlas:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: robot_bleu
+  m_Name: robots
   m_EditorData:
     textureSettings:
       serializedVersion: 2
@@ -28,6 +28,13 @@ SpriteAtlas:
       enableTightPacking: 1
     variantMultiplier: 1
     packables:
+    - {fileID: 2800000, guid: b603e579bdb1ec5458bd4a7decc51651, type: 3}
+    - {fileID: 2800000, guid: a5544656f966bdf45bdb04fc53fd3722, type: 3}
+    - {fileID: 2800000, guid: 66b18067c9f88134c99933ec2ce0a384, type: 3}
+    - {fileID: 2800000, guid: 59690d9447ebd4549a9547248c806ca9, type: 3}
+    - {fileID: 2800000, guid: d75d4e355b93a3048ab425d158b68e9f, type: 3}
+    - {fileID: 2800000, guid: f712839783efe6045aca28214e4fa3f6, type: 3}
+    - {fileID: 2800000, guid: 2a4963858ef749b40ae97afb46e069a0, type: 3}
     - {fileID: 2800000, guid: 492474dccdfbbec42bf298065cd8d9eb, type: 3}
     - {fileID: 2800000, guid: 9b1f629323f6ebd4ca42b0b2c2b82cf4, type: 3}
     - {fileID: 2800000, guid: ef67ca3045c74654ca219abc38c5d0e9, type: 3}
@@ -39,19 +46,33 @@ SpriteAtlas:
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: 9b1f629323f6ebd4ca42b0b2c2b82cf4, type: 3}
+  - {fileID: 21300000, guid: a5544656f966bdf45bdb04fc53fd3722, type: 3}
+  - {fileID: 21300000, guid: 59690d9447ebd4549a9547248c806ca9, type: 3}
   - {fileID: 21300000, guid: 8d78aa3c51f595f4b9154dbfcce1c6a0, type: 3}
+  - {fileID: 21300000, guid: d75d4e355b93a3048ab425d158b68e9f, type: 3}
   - {fileID: 21300000, guid: 914b8c1ff98f10d47817ae197585fe8d, type: 3}
   - {fileID: 21300000, guid: ef67ca3045c74654ca219abc38c5d0e9, type: 3}
+  - {fileID: 21300000, guid: 66b18067c9f88134c99933ec2ce0a384, type: 3}
+  - {fileID: 21300000, guid: 2a4963858ef749b40ae97afb46e069a0, type: 3}
   - {fileID: 21300000, guid: cc58ae863aef55c409c8d8f2938e6b8b, type: 3}
   - {fileID: 21300000, guid: 11122e51bea08134590e2d6d73246deb, type: 3}
+  - {fileID: 21300000, guid: f712839783efe6045aca28214e4fa3f6, type: 3}
+  - {fileID: 21300000, guid: b603e579bdb1ec5458bd4a7decc51651, type: 3}
   - {fileID: 21300000, guid: 492474dccdfbbec42bf298065cd8d9eb, type: 3}
   m_PackedSpriteNamesToIndex:
   - corps
+  - corps
+  - dents
   - dents
   - dents_fermees
+  - dents_fermees
+  - corps_2
   - corps_2
   - oeil
+  - oeil
+  - feu_reacteur
   - feu_reacteur
   - chaine
-  m_Tag: robot_bleu
+  - chaine
+  m_Tag: robots
   m_IsVariant: 0

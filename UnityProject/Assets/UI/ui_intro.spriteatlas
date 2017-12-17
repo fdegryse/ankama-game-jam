@@ -5,7 +5,7 @@ SpriteAtlas:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: loup_buissons
+  m_Name: ui_intro
   m_EditorData:
     textureSettings:
       serializedVersion: 2
@@ -24,22 +24,25 @@ SpriteAtlas:
       padding: 4
       blockOffset: 1
       allowAlphaSplitting: 0
-      enableRotation: 1
-      enableTightPacking: 1
+      enableRotation: 0
+      enableTightPacking: 0
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: 4cbf8d1c557a32c48834bee49bfc9b93, type: 3}
-    - {fileID: 2800000, guid: 1bdf432a3213f2f4a934d662eb24f695, type: 3}
-    - {fileID: 2800000, guid: 9bc34d6c9b4cf5e4aa109cafd56b8491, type: 3}
+    - {fileID: 2800000, guid: 3d6e5397acfb6a047be30c35b3aba838, type: 3}
+    - {fileID: 2800000, guid: 5fbe68700e24be8468e7c91fe13bc035, type: 3}
+    - {fileID: 2800000, guid: cbeb1dcb1a38e844e8340a4e9b1e901f, type: 3}
+    - {fileID: 2800000, guid: 55441584dec9a4249abfe6a6a6ddf423, type: 3}
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 21300000, guid: 9bc34d6c9b4cf5e4aa109cafd56b8491, type: 3}
-  - {fileID: 21300000, guid: 4cbf8d1c557a32c48834bee49bfc9b93, type: 3}
-  - {fileID: 21300000, guid: 1bdf432a3213f2f4a934d662eb24f695, type: 3}
+  - {fileID: 21300000, guid: 3d6e5397acfb6a047be30c35b3aba838, type: 3}
+  - {fileID: 21300000, guid: 5fbe68700e24be8468e7c91fe13bc035, type: 3}
+  - {fileID: 21300000, guid: cbeb1dcb1a38e844e8340a4e9b1e901f, type: 3}
+  - {fileID: 21300000, guid: 55441584dec9a4249abfe6a6a6ddf423, type: 3}
   m_PackedSpriteNamesToIndex:
-  - tete
-  - patte
-  - queue
-  m_Tag: loup_buissons
+  - intro_title
+  - intro_instructions
+  - controller
+  - left-arrow
+  m_Tag: ui_intro
   m_IsVariant: 0

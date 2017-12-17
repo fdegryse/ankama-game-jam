@@ -63,7 +63,9 @@ public class PlayerController : MonoBehaviour
 
 	private void Initialize()
 	{
-		m_player = ReInput.players.GetPlayer(playerId);
+	    int playerControllerIndex = PlayerAssignation.GetPlayerControllerIndex(playerId);
+
+		m_player = ReInput.players.GetPlayer(playerControllerIndex);
 		m_initialized = true;
 
 		SetTrapState(TrapState.Open);

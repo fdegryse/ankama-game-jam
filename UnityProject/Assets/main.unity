@@ -3406,7 +3406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 581b3e3c96df0ef42aef16b63b27b87f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _dontDestroyOnLoad: 1
+  _dontDestroyOnLoad: 0
   _userData:
     configVars:
       updateLoop: 3
@@ -3534,8 +3534,8 @@ MonoBehaviour:
       _defaultKeyboardMaps: []
       _defaultCustomControllerMaps: []
       _startingCustomControllers: []
-      _assignMouseOnStart: 1
-      _assignKeyboardOnStart: 1
+      _assignMouseOnStart: 0
+      _assignKeyboardOnStart: 0
       _excludeFromControllerAutoAssignment: 0
     - _id: 2
       _name: Player1
@@ -3550,7 +3550,37 @@ MonoBehaviour:
       _defaultCustomControllerMaps: []
       _startingCustomControllers: []
       _assignMouseOnStart: 0
-      _assignKeyboardOnStart: 1
+      _assignKeyboardOnStart: 0
+      _excludeFromControllerAutoAssignment: 0
+    - _id: 3
+      _name: Player2
+      _descriptiveName: Player2
+      _startPlaying: 1
+      _defaultJoystickMaps:
+      - _enabled: 1
+        _categoryId: 0
+        _layoutId: 0
+      _defaultMouseMaps: []
+      _defaultKeyboardMaps: []
+      _defaultCustomControllerMaps: []
+      _startingCustomControllers: []
+      _assignMouseOnStart: 0
+      _assignKeyboardOnStart: 0
+      _excludeFromControllerAutoAssignment: 0
+    - _id: 4
+      _name: Player3
+      _descriptiveName: Player3
+      _startPlaying: 1
+      _defaultJoystickMaps:
+      - _enabled: 1
+        _categoryId: 0
+        _layoutId: 0
+      _defaultMouseMaps: []
+      _defaultKeyboardMaps: []
+      _defaultCustomControllerMaps: []
+      _startingCustomControllers: []
+      _assignMouseOnStart: 0
+      _assignKeyboardOnStart: 0
       _excludeFromControllerAutoAssignment: 0
     actions:
     - _id: 0
@@ -3682,50 +3712,6 @@ MonoBehaviour:
       - _actionCategoryId: 0
         _actionId: -1
         _elementType: 1
-        _elementIdentifierId: 19
-        _axisRange: 0
-        _invert: 0
-        _axisContribution: 0
-        _keyboardKeyCode: 0
-        _modifierKey1: 0
-        _modifierKey2: 0
-        _modifierKey3: 0
-      - _actionCategoryId: 0
-        _actionId: -1
-        _elementType: 1
-        _elementIdentifierId: 20
-        _axisRange: 0
-        _invert: 0
-        _axisContribution: 0
-        _keyboardKeyCode: 0
-        _modifierKey1: 0
-        _modifierKey2: 0
-        _modifierKey3: 0
-      - _actionCategoryId: 0
-        _actionId: -1
-        _elementType: 1
-        _elementIdentifierId: 21
-        _axisRange: 0
-        _invert: 0
-        _axisContribution: 0
-        _keyboardKeyCode: 0
-        _modifierKey1: 0
-        _modifierKey2: 0
-        _modifierKey3: 0
-      - _actionCategoryId: 0
-        _actionId: -1
-        _elementType: 1
-        _elementIdentifierId: 22
-        _axisRange: 0
-        _invert: 0
-        _axisContribution: 0
-        _keyboardKeyCode: 0
-        _modifierKey1: 0
-        _modifierKey2: 0
-        _modifierKey3: 0
-      - _actionCategoryId: 0
-        _actionId: -1
-        _elementType: 1
         _elementIdentifierId: 14
         _axisRange: 0
         _invert: 0
@@ -3749,7 +3735,7 @@ MonoBehaviour:
     mouseMaps: []
     customControllerMaps: []
     customControllers: []
-    playerIdCounter: 3
+    playerIdCounter: 5
     actionIdCounter: 5
     actionCategoryIdCounter: 1
     inputBehaviorIdCounter: 1
