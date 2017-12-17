@@ -19,11 +19,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4811767133781648}
+  - component: {fileID: 114782550586722314}
   - component: {fileID: 212341143202220224}
   - component: {fileID: 50880956966221920}
   - component: {fileID: 60101911826130920}
   - component: {fileID: 233069051615864804}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: arriere_train
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,12 +39,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4960867880284664}
-  - component: {fileID: 212927998617045648}
   - component: {fileID: 114141829783064084}
+  - component: {fileID: 212927998617045648}
   - component: {fileID: 50232553408737574}
   - component: {fileID: 233415037278214872}
   - component: {fileID: 60382739547294618}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: queue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,12 +59,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4489052198692512}
-  - component: {fileID: 212025154401221660}
   - component: {fileID: 114616093352859384}
+  - component: {fileID: 212025154401221660}
   - component: {fileID: 50167715656138168}
   - component: {fileID: 233062016669231384}
   - component: {fileID: 60553463633414604}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_avant_gauche
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,11 +96,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4551269685864534}
+  - component: {fileID: 114506202280701884}
   - component: {fileID: 212670587351288406}
   - component: {fileID: 50531290371021882}
   - component: {fileID: 70148120874366800}
   - component: {fileID: 233193733962088488}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: langue_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,11 +116,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4820536730866424}
+  - component: {fileID: 114017524101138110}
   - component: {fileID: 212007151530237622}
   - component: {fileID: 50945541736713662}
   - component: {fileID: 70626318333454054}
   - component: {fileID: 233933759060333594}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: langue_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -133,12 +136,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4797014632923524}
-  - component: {fileID: 212181273228640702}
   - component: {fileID: 114887668618173150}
+  - component: {fileID: 212181273228640702}
   - component: {fileID: 50737662378780030}
   - component: {fileID: 233934982936061166}
   - component: {fileID: 60053112160842700}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_avant_droite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,12 +173,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4547147607977008}
-  - component: {fileID: 212798418464674992}
   - component: {fileID: 114253269583668034}
+  - component: {fileID: 212798418464674992}
   - component: {fileID: 50030673967348570}
   - component: {fileID: 233899267032770270}
   - component: {fileID: 60573232664177750}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: tete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,12 +211,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4274313178184446}
-  - component: {fileID: 212379526398131388}
   - component: {fileID: 114495780628921694}
+  - component: {fileID: 212379526398131388}
   - component: {fileID: 50269425870543894}
   - component: {fileID: 233507337210412884}
   - component: {fileID: 60331612631184156}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_arriere_droite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4900504857534878}
   - component: {fileID: 114135067718692966}
-  - component: {fileID: 61460729545971072}
+  - component: {fileID: 70809792815108982}
   m_Layer: 9
   m_Name: WolfHead
   m_TagString: Untagged
@@ -245,12 +248,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4870773532871194}
-  - component: {fileID: 212648237377825924}
   - component: {fileID: 114125723584626162}
+  - component: {fileID: 212648237377825924}
   - component: {fileID: 50790013339196320}
   - component: {fileID: 233420651042125388}
   - component: {fileID: 60254910922901854}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_arriere_gauche
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,31 +962,6 @@ PolygonCollider2D:
       - {x: 0.07718267, y: -0.47033066}
       - {x: 0.046804097, y: -0.44172525}
       - {x: 0.06711926, y: -0.21043587}
---- !u!61 &61460729545971072
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1798624842889740}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.45}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!70 &70148120874366800
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -1014,6 +992,33 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: -0.00000011920929}
   m_Size: {x: 0.11000003, y: 0.25000006}
   m_Direction: 0
+--- !u!70 &70809792815108982
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798624842889740}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.5}
+  m_Size: {x: 0.45, y: 0.85}
+  m_Direction: 0
+--- !u!114 &114017524101138110
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536097496276868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollWolf: {fileID: 114965419970078118}
 --- !u!114 &114125723584626162
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1090,12 +1095,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ragdollWolf: {fileID: 114965419970078118}
+--- !u!114 &114506202280701884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455368103486972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollWolf: {fileID: 114965419970078118}
 --- !u!114 &114616093352859384
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1314617062867792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollWolf: {fileID: 114965419970078118}
+--- !u!114 &114782550586722314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103258290145910}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
@@ -1129,6 +1158,9 @@ MonoBehaviour:
   legCollider: {fileID: 60053112160842700}
   tailCollider: {fileID: 60382739547294618}
   washerActivationDelay: 0.5
+  challengeBreakForce: 1500
+  challengeEndedDelay: 4
+  challengeEndedAlphaTweenDuration: 0.5
 --- !u!114 &114972492815925872
 MonoBehaviour:
   m_ObjectHideFlags: 1

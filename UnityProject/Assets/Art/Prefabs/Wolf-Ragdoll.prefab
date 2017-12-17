@@ -19,12 +19,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4659042502027734}
-  - component: {fileID: 212219121209157398}
   - component: {fileID: 114320991655413852}
+  - component: {fileID: 212219121209157398}
   - component: {fileID: 50521578973734692}
   - component: {fileID: 233389719923097262}
   - component: {fileID: 60720551684254936}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: tete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,12 +56,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4219321491679424}
-  - component: {fileID: 212552560912821546}
   - component: {fileID: 114590935486453720}
+  - component: {fileID: 212552560912821546}
   - component: {fileID: 50049868634224096}
   - component: {fileID: 233372970499295006}
   - component: {fileID: 60218494688877360}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_arriere_droite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -76,12 +76,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4076629871711562}
-  - component: {fileID: 212637769944624262}
   - component: {fileID: 114330739723093926}
+  - component: {fileID: 212637769944624262}
   - component: {fileID: 50318197314364530}
   - component: {fileID: 233122415704181522}
   - component: {fileID: 60911376086716776}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_arriere_gauche
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,11 +96,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4605119964962772}
+  - component: {fileID: 114401647007959004}
   - component: {fileID: 212742535037040248}
   - component: {fileID: 50089000959208452}
   - component: {fileID: 70967715375571974}
   - component: {fileID: 233245632015202080}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: langue_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,11 +116,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4057238430170076}
+  - component: {fileID: 114653838071929284}
   - component: {fileID: 212576662470093906}
   - component: {fileID: 50281740247070700}
   - component: {fileID: 70362349886488494}
   - component: {fileID: 233441927649296182}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: langue_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134,6 +136,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4468987715405976}
+  - component: {fileID: 114132577828817726}
   - component: {fileID: 212715505521576868}
   - component: {fileID: 50562377906965546}
   - component: {fileID: 60297190348266712}
@@ -153,12 +156,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4471059685572088}
-  - component: {fileID: 212165648032417768}
   - component: {fileID: 114325092178826028}
+  - component: {fileID: 212165648032417768}
   - component: {fileID: 50369537952230362}
   - component: {fileID: 233864320178073938}
   - component: {fileID: 60415025786153630}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_avant_droite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,12 +176,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4861890302937098}
-  - component: {fileID: 212027266599767874}
   - component: {fileID: 114620772502660286}
+  - component: {fileID: 212027266599767874}
   - component: {fileID: 50412352379750658}
   - component: {fileID: 233552897845337660}
   - component: {fileID: 60054020853794332}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: queue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,12 +196,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4666303544639782}
-  - component: {fileID: 212519961188818388}
   - component: {fileID: 114975691577396198}
+  - component: {fileID: 212519961188818388}
   - component: {fileID: 50224811994568998}
   - component: {fileID: 233662287163505662}
   - component: {fileID: 60563643911796640}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_avant_gauche
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -895,6 +898,18 @@ CapsuleCollider2D:
   m_Offset: {x: -0.007822497, y: -0.00000011920926}
   m_Size: {x: 0.10435503, y: 0.25000003}
   m_Direction: 0
+--- !u!114 &114132577828817726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1517289348280734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollWolf: {fileID: 114675164009837882}
 --- !u!114 &114320991655413852
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -943,6 +958,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ragdollWolf: {fileID: 114675164009837882}
+--- !u!114 &114401647007959004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1414797102831318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollWolf: {fileID: 114675164009837882}
 --- !u!114 &114590935486453720
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -961,6 +988,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1571146585266216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollWolf: {fileID: 114675164009837882}
+--- !u!114 &114653838071929284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1480042219859226}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}

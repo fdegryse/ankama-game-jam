@@ -121,10 +121,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4080098437984148}
-  - component: {fileID: 61493124216530040}
+  - component: {fileID: 70859889180409146}
   - component: {fileID: 249523897492147940}
   m_Layer: 0
-  m_Name: WolfWasherAffector
+  m_Name: RightEffector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,6 +142,23 @@ GameObject:
   - component: {fileID: 114175187167093466}
   m_Layer: 0
   m_Name: WolfWasher_animation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1650120480026024
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4123851311374360}
+  - component: {fileID: 70967788919002644}
+  - component: {fileID: 249618081936113870}
+  m_Layer: 0
+  m_Name: LeftEffector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -187,6 +204,19 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1577813903675062}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.96500015, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4575935699066134}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4123851311374360
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650120480026024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0.965, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -218,7 +248,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4575935699066134}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4575935699066134
 Transform:
@@ -235,6 +265,7 @@ Transform:
   - {fileID: 4599753295519762}
   - {fileID: 4841858427157178}
   - {fileID: 4224873488689064}
+  - {fileID: 4123851311374360}
   - {fileID: 4080098437984148}
   - {fileID: 4512964159968858}
   - {fileID: 4974174394130128}
@@ -318,7 +349,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4575935699066134}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &60236404321500880
 PolygonCollider2D:
@@ -344,18 +375,17 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.93, y: -1.0699999}
-      - {x: 0.97999996, y: -0.96}
+    - - {x: 0.97999996, y: -0.96}
       - {x: 0.97999996, y: 0.7199013}
       - {x: 0.91999996, y: 0.84}
       - {x: 0.84, y: 0.90999997}
       - {x: 0.729743, y: 0.96772134}
       - {x: 0.7257824, y: 1.1035594}
       - {x: 0.6549816, y: 0.96969926}
-      - {x: 0.84921026, y: 0.70059454}
-      - {x: 0.83391905, y: -0.9945127}
-      - {x: -0.7909837, y: -0.9945127}
-      - {x: -0.8003049, y: 0.72368705}
+      - {x: 0.7, y: 0.7}
+      - {x: 0.7, y: -1}
+      - {x: -0.7, y: -1}
+      - {x: -0.7, y: 0.7}
       - {x: -0.630919, y: 0.9589895}
       - {x: -0.69080496, y: 1.1052336}
       - {x: -0.6921983, y: 0.9710611}
@@ -363,7 +393,6 @@ PolygonCollider2D:
       - {x: -0.9058211, y: 0.84035873}
       - {x: -0.96999997, y: 0.7}
       - {x: -0.96999997, y: -0.93}
-      - {x: -0.96, y: -1.01}
       - {x: -0.85999995, y: -1.15}
       - {x: -0.51, y: -1.15}
       - {x: 0.83, y: -1.15}
@@ -379,7 +408,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.6}
+  m_Offset: {x: 0, y: 0.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -390,32 +419,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
---- !u!61 &61493124216530040
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1577813903675062}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 1
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.02, y: 0.3}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.25, y: 1.65}
+  m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
 --- !u!61 &61569532676838144
 BoxCollider2D:
@@ -442,6 +446,36 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.4, y: 2}
   m_EdgeRadius: 0
+--- !u!70 &70859889180409146
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1577813903675062}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.2, y: 0.35}
+  m_Size: {x: 0.75, y: 2.2}
+  m_Direction: 0
+--- !u!70 &70967788919002644
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650120480026024}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 1
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.2, y: 0.35}
+  m_Size: {x: 0.75, y: 2.2}
+  m_Direction: 0
 --- !u!114 &114140235200564152
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -749,7 +783,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 0
-  randomSeed: 378412619
+  randomSeed: 886368995
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4390,11 +4424,30 @@ AreaEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 4608
   m_UseGlobalAngle: 0
-  m_ForceAngle: -90
-  m_ForceMagnitude: 2500
+  m_ForceAngle: -105
+  m_ForceMagnitude: 750
   m_ForceVariation: 0
   m_ForceTarget: 1
-  m_Drag: 750
-  m_AngularDrag: 750
+  m_Drag: 0
+  m_AngularDrag: 0
+--- !u!249 &249618081936113870
+AreaEffector2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1650120480026024}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4608
+  m_UseGlobalAngle: 0
+  m_ForceAngle: -75
+  m_ForceMagnitude: 750
+  m_ForceVariation: 0
+  m_ForceTarget: 1
+  m_Drag: 0
+  m_AngularDrag: 0

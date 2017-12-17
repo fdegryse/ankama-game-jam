@@ -1,7 +1,6 @@
 ﻿using JetBrains.Annotations;
 using Rewired;
 using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -37,7 +36,6 @@ public class PlayerController : MonoBehaviour
 	[UsedImplicitly] public SpriteSheetAnimation closeAnimation;
 
 	private Player m_player;
-
 	public Player player
 	{
 		get { return m_player; }
@@ -59,9 +57,9 @@ public class PlayerController : MonoBehaviour
 	}
 
 	private float m_trapCooldown;
-	private readonly HashSet<RagdollWolf> m_trappedWolves = new HashSet<RagdollWolf>();
-	private readonly Collider2D[] m_trapHitBuffer = new Collider2D[8];
-	private readonly RaycastHit2D[] m_trapHitRaycastBuffer = new RaycastHit2D[8];
+	private RagdollWolf m_trappedWolf;
+
+	private readonly Collider2D[] m_trapHitBuffer = new Collider2D[32];
 
 	private void Initialize()
 	{
@@ -79,14 +77,6 @@ public class PlayerController : MonoBehaviour
 				trapOpen.SetActive(true);
 				trapClosed.SetActive(false);
 				m_trapCooldown = 0f;
-				foreach (RagdollWolf wolf in m_trappedWolves)
-				{
-					if (null != wolf)
-					{
-						wolf.ReleaseFromTrap(trapCollider);
-					}
-				}
-				m_trappedWolves.Clear();
 				openAnimation.enabled = true;
 				break;
 			case TrapState.Closed:
@@ -162,86 +152,17 @@ public class PlayerController : MonoBehaviour
 				bool closeTrap = m_player.GetButtonDown("CloseTrap");
 				if (closeTrap)
 				{
-					ContactFilter2D contactFilter2D = new ContactFilter2D();
-					contactFilter2D.SetLayerMask(LayerMask.GetMask("Wolves"));
-
-					trapCollider.enabled = true;
-					int trapHitCount = trapCollider.OverlapCollider(contactFilter2D, m_trapHitBuffer);
-					int raycastHitCount = trapCollider.Raycast(-trapCollider.transform.up, contactFilter2D, m_trapHitRaycastBuffer);
-					trapCollider.enabled = false;
-
-					RagdollWolf closestHitWolf = null;
-					Collider2D closestHitCollider = null;
-					float closestHitDistance = float.MaxValue;
-
-					for (int i = 0; i < trapHitCount; ++i)
+					RagdollWolf ragdollWolf;
+					Collider2D ragdollWolfCollider;
+					if (TryCatchWolf(out ragdollWolf, out ragdollWolfCollider))
 					{
-						Collider2D hit = m_trapHitBuffer[i];
-						
-						Rigidbody2D hitRigidbody = hit.attachedRigidbody;
-						if (null == hitRigidbody)
+						if (ragdollWolf.AttachToTrap(this, ragdollWolfCollider))
 						{
-							var wolf = hit.gameObject.GetComponent<Wolf>();
-							if (null != wolf)
-							{
-								RagdollWolf ragdollWolf = wolf.GetTrapped();
-
-								m_trappedWolves.Add(ragdollWolf);
-
-								SetTrapState(TrapState.ClosedTrapped);
-
-								Collider2D wolfCollider;
-								switch (wolf.wolfPart)
-								{
-									case Wolf.WolfPart.Head:
-										wolfCollider = ragdollWolf.headCollider;
-										break;
-									case Wolf.WolfPart.Leg:
-										wolfCollider = ragdollWolf.legCollider;
-										break;
-									case Wolf.WolfPart.Tail:
-										wolfCollider = ragdollWolf.tailCollider;
-										break;
-									default:
-										throw new ArgumentOutOfRangeException();
-								}
-
-								ragdollWolf.AttachToTrap(wolfCollider, trapCollider);
-							}
-						}
-						else
-						{
-							var hitWolfPart = hitRigidbody.GetComponent<RagdollWolfPart>();
-							if (null != hitWolfPart)
-							{
-								for (int j = 0; j < raycastHitCount; ++j)
-								{
-									RaycastHit2D raycastHit = m_trapHitRaycastBuffer[j];
-									if (raycastHit.collider == hit)
-									{
-										float raycastHitDistance = raycastHit.distance;
-										if (raycastHitDistance < closestHitDistance)
-										{
-											closestHitWolf = hitWolfPart.ragdollWolf;
-											closestHitCollider = hit;
-											closestHitDistance = raycastHitDistance;
-										}
-										break;
-									}
-								}
-							}
+							m_trappedWolf = ragdollWolf;
+							SetTrapState(TrapState.ClosedTrapped);
 						}
 					}
-
-					if (null != closestHitCollider)
-					{
-						SetTrapState(TrapState.ClosedTrapped);
-						m_trappedWolves.Add(closestHitWolf);
-
-						closestHitWolf.AttachToTrap(closestHitCollider, trapCollider);
-					}
-
-					if (m_trapState == TrapState.Open)
+					else
 					{
 						SetTrapState(TrapState.Closed);
 					}
@@ -271,7 +192,7 @@ public class PlayerController : MonoBehaviour
 					bool holdTrap = m_player.GetButton("CloseTrap");
 					if (!holdTrap)
 					{
-						SetTrapState(TrapState.Open);
+						ReleaseTrappedWolf();
 					}
 				}
 			}
@@ -280,5 +201,125 @@ public class PlayerController : MonoBehaviour
 			default:
 				throw new ArgumentOutOfRangeException();
 		}
+	}
+
+	public void ReleaseTrappedWolf()
+	{
+		if (null != m_trappedWolf)
+		{
+			m_trappedWolf.ReleaseFromTrap(this);
+			m_trappedWolf = null;
+		}
+
+		SetTrapState(TrapState.Open);
+	}
+
+	private bool TryCatchWolf(out RagdollWolf caughtRagdollWolf, out Collider2D hitCollider)
+	{
+		var contactFilter2D = new ContactFilter2D
+		{
+			useTriggers = true,
+			useLayerMask = true,
+			layerMask = LayerMask.GetMask("Wolves", "WolvesPart")
+		};
+
+		int trapHitCount = trapCollider.OverlapCollider(contactFilter2D, m_trapHitBuffer);
+
+		// Find a hiding wolf
+
+		for (int i = 0; i < trapHitCount; ++i)
+		{
+			Collider2D hit = m_trapHitBuffer[i];
+
+			Rigidbody2D hitRigidbody = hit.attachedRigidbody;
+			if (null != hitRigidbody)
+			{
+				continue;
+			}
+			
+			var wolf = hit.gameObject.GetComponent<Wolf>();
+			if (null == wolf)
+			{
+				continue;
+			}
+			
+			RagdollWolf ragdollWolf = wolf.GetTrapped();
+
+			Collider2D wolfCollider;
+			switch (wolf.wolfPart)
+			{
+				case Wolf.WolfPart.Head:
+					wolfCollider = ragdollWolf.headCollider;
+					break;
+				case Wolf.WolfPart.Leg:
+					wolfCollider = ragdollWolf.legCollider;
+					break;
+				case Wolf.WolfPart.Tail:
+					wolfCollider = ragdollWolf.tailCollider;
+					break;
+				default:
+					throw new ArgumentOutOfRangeException();
+			}
+
+			caughtRagdollWolf = ragdollWolf;
+			hitCollider = wolfCollider;
+			return true;
+		}
+
+		// Find a ragdoll wolf
+
+		RagdollWolf closestHitWolf = null;
+		Collider2D closestHitCollider = null;
+		float closestHitDistance = float.MaxValue;
+
+		for (int i = 0; i < trapHitCount; ++i)
+		{
+			Collider2D hit = m_trapHitBuffer[i];
+
+			Rigidbody2D hitRigidbody = hit.attachedRigidbody;
+			if (null == hitRigidbody)
+			{
+				continue;
+			}
+			
+			var hitWolfPart = hitRigidbody.GetComponent<RagdollWolfPart>();
+			if (null == hitWolfPart)
+			{
+				continue;
+			}
+
+			RagdollWolf hitRagdollWolf = hitWolfPart.ragdollWolf;
+			if (hitRagdollWolf.isDead)
+			{
+				continue;
+			}
+
+			ColliderDistance2D colliderDistance = hit.Distance(trapCollider);
+			if (!colliderDistance.isValid)
+			{
+				continue;
+			}
+
+			float distance = colliderDistance.distance;
+			if (distance >= closestHitDistance)
+			{
+				continue;
+			}
+
+			closestHitWolf = hitRagdollWolf;
+			closestHitCollider = hit;
+			closestHitDistance = distance;
+		}
+
+		if (null != closestHitCollider)
+		{
+			caughtRagdollWolf = closestHitWolf;
+			hitCollider = closestHitCollider;
+			return true;
+		}
+
+		caughtRagdollWolf = null;
+		hitCollider = null;
+		return false;
 	}
 }

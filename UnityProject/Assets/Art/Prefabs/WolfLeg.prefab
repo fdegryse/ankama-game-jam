@@ -19,11 +19,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4153449604218832}
+  - component: {fileID: 114192227377238946}
   - component: {fileID: 212361272484455328}
   - component: {fileID: 50629003923736814}
   - component: {fileID: 60167654827019410}
   - component: {fileID: 233970036250365730}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: arriere_train
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,12 +39,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4003454090274038}
-  - component: {fileID: 212936485419630856}
   - component: {fileID: 114973607589968778}
+  - component: {fileID: 212936485419630856}
   - component: {fileID: 50252988834038930}
   - component: {fileID: 233701364313208884}
   - component: {fileID: 60848001887700132}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_arriere_droite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59,7 +60,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4707307076405650}
   - component: {fileID: 114128911862338128}
-  - component: {fileID: 61602802308273454}
+  - component: {fileID: 70384087335426352}
   m_Layer: 9
   m_Name: WolfLeg
   m_TagString: Untagged
@@ -75,12 +76,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4344406850833144}
-  - component: {fileID: 212859318628100344}
   - component: {fileID: 114244438401462666}
+  - component: {fileID: 212859318628100344}
   - component: {fileID: 50483735424293892}
   - component: {fileID: 233785151119904272}
   - component: {fileID: 60011605600231932}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_avant_gauche
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,12 +96,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4357308803837520}
-  - component: {fileID: 212825570757197206}
   - component: {fileID: 114593870869511960}
+  - component: {fileID: 212825570757197206}
   - component: {fileID: 50485917941454654}
   - component: {fileID: 233773513727965130}
   - component: {fileID: 60077520703304270}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: queue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,11 +133,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4833984882804414}
+  - component: {fileID: 114966110399097430}
   - component: {fileID: 212981971718609600}
   - component: {fileID: 50435942061997040}
   - component: {fileID: 70362552043415018}
   - component: {fileID: 233009050765405184}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: langue_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -151,12 +153,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4191307983631646}
-  - component: {fileID: 212852496780082022}
   - component: {fileID: 114382217352726510}
+  - component: {fileID: 212852496780082022}
   - component: {fileID: 50022600686302968}
   - component: {fileID: 233085205387672754}
   - component: {fileID: 60064126280125250}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: tete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,12 +173,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4246115046448868}
-  - component: {fileID: 212592062072339082}
   - component: {fileID: 114595974531265452}
+  - component: {fileID: 212592062072339082}
   - component: {fileID: 50738409694726468}
   - component: {fileID: 233203636101581904}
   - component: {fileID: 60361247537918192}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_avant_droite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,11 +193,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4667743469154414}
+  - component: {fileID: 114000349407172022}
   - component: {fileID: 212905264950656448}
   - component: {fileID: 50140052758560960}
   - component: {fileID: 70716388393426720}
   - component: {fileID: 233321874920773088}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: langue_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,12 +249,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4674508925679852}
-  - component: {fileID: 212422683650352354}
   - component: {fileID: 114667022194327970}
+  - component: {fileID: 212422683650352354}
   - component: {fileID: 50149703219040936}
   - component: {fileID: 233865164919987850}
   - component: {fileID: 60275278432525280}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: patte_arriere_gauche
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,16 +451,16 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1250536023734704}
-  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: -4.55, y: 2.95, z: 0}
-  m_LocalScale: {x: 1.0000005, y: 1.0000005, z: 1}
+  m_LocalRotation: {x: 0, y: -0, z: 0.5, w: -0.8660254}
+  m_LocalPosition: {x: -4.95, y: 0.12, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4386705326102018}
   - {fileID: 4141407589279198}
   - {fileID: 4154889129502690}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 300}
 --- !u!4 &4833984882804414
 Transform:
   m_ObjectHideFlags: 1
@@ -959,31 +962,6 @@ PolygonCollider2D:
       - {x: 0.08893511, y: 0.4666468}
       - {x: 0.15481396, y: 0.59226763}
       - {x: 0.028980404, y: 0.678903}
---- !u!61 &61602802308273454
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1250536023734704}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.35}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0, y: 0}
-    newSize: {x: 0, y: 0}
-    adaptiveTilingThreshold: 0
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.4, y: 0.7}
-  m_EdgeRadius: 0
 --- !u!70 &70362552043415018
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -998,6 +976,21 @@ CapsuleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.00000011920929}
   m_Size: {x: 0.11000003, y: 0.25000006}
+  m_Direction: 0
+--- !u!70 &70384087335426352
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1250536023734704}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.04, y: 0.35}
+  m_Size: {x: 0.4, y: 0.8}
   m_Direction: 0
 --- !u!70 &70716388393426720
 CapsuleCollider2D:
@@ -1014,6 +1007,18 @@ CapsuleCollider2D:
   m_Offset: {x: -0.007822497, y: -0.00000011920926}
   m_Size: {x: 0.10435503, y: 0.25000003}
   m_Direction: 0
+--- !u!114 &114000349407172022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1529281409033206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollWolf: {fileID: 114722639176046096}
 --- !u!114 &114057978415148160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1072,6 +1077,18 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1597755797523542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollWolf: {fileID: 114722639176046096}
+--- !u!114 &114192227377238946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1096326291588918}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
@@ -1153,6 +1170,9 @@ MonoBehaviour:
   legCollider: {fileID: 60361247537918192}
   tailCollider: {fileID: 60077520703304270}
   washerActivationDelay: 0.5
+  challengeBreakForce: 1500
+  challengeEndedDelay: 4
+  challengeEndedAlphaTweenDuration: 0.5
 --- !u!114 &114728435702218926
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1179,6 +1199,18 @@ MonoBehaviour:
   - {fileID: 21300022, guid: a485071b2dc41c140b429eed677e12c1, type: 3}
   frameRate: 25
   loop: 0
+--- !u!114 &114966110399097430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1353696109133942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828997ef97893f94798819add50223b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ragdollWolf: {fileID: 114722639176046096}
 --- !u!114 &114973607589968778
 MonoBehaviour:
   m_ObjectHideFlags: 1

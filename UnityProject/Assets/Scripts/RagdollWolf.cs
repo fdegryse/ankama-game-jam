@@ -1,88 +1,135 @@
 ﻿using JetBrains.Annotations;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RagdollWolf : MonoBehaviour
 {
-	[UsedImplicitly]
-	public Collider2D headCollider;
-	
-	[UsedImplicitly]
-	public Collider2D legCollider;
+    [UsedImplicitly] public Collider2D headCollider;
 
-	[UsedImplicitly]
-	public Collider2D tailCollider;
-	
-	[UsedImplicitly]
-	public float washerActivationDelay = 1f;
-	
-	private readonly Dictionary<Collider2D, List<Joint2D>> m_activeTrapJoints = new Dictionary<Collider2D, List<Joint2D>>(2);
-	private bool m_dead;
-	
-	public void AttachToTrap(Collider2D hit, Collider2D trapCollider)
-	{
-		Rigidbody2D hitRigidbody = hit.attachedRigidbody;
+    [UsedImplicitly] public Collider2D legCollider;
 
-		var fixedJoint = hitRigidbody.gameObject.AddComponent<FixedJoint2D>();
-		fixedJoint.connectedBody = trapCollider.attachedRigidbody;
-		
-		List<Joint2D> jointList;
-		if (m_activeTrapJoints.TryGetValue(trapCollider, out jointList))
-		{
-			jointList.Add(fixedJoint);
-		}
-		else
-		{
-			jointList = new List<Joint2D>
-			{
-				fixedJoint
-			};
-			m_activeTrapJoints.Add(trapCollider, jointList);
-		}
-	}
+    [UsedImplicitly] public Collider2D tailCollider;
 
-	public void ReleaseFromTrap(Collider2D trapCollider)
-	{
-		List<Joint2D> jointList;
-		if (m_activeTrapJoints.TryGetValue(trapCollider, out jointList))
-		{
-			foreach (Joint2D joint2D in jointList)
-			{
-				Destroy(joint2D);
-			}
+    [UsedImplicitly] public float washerActivationDelay = 1f;
 
-			jointList.Clear();
-		}
-	}
+    private struct TrapData
+    {
+        private readonly PlayerController m_playerController;
+        private Joint2D m_activeJoint;
+        private readonly int m_activationFrame;
 
-	public void PutInWasher(WolfWasher wolfWasher)
-	{
-		if (m_dead)
-		{
-			return;
-		}
-		m_dead = true;
+        public enum ForceReleaseResult
+        {
+            None,
+            Acquired,
+            Challenged
+        }
 
-		foreach (List<Joint2D> jointList in m_activeTrapJoints.Values)
-		{
-			foreach (Joint2D joint2D in jointList)
-			{
-				Destroy(joint2D);
-			}
-		}
+        public TrapData(PlayerController player, Joint2D joint, int frame)
+        {
+            m_playerController = player;
+            m_activeJoint = joint;
+            m_activationFrame = frame;
+        }
 
-		m_activeTrapJoints.Clear();
+        public void Release()
+        {
+            if (null == m_activeJoint)
+            {
+                return;
+            }
 
-		wolfWasher.StartCoroutine(PutInWasherRoutine(wolfWasher));
-	}
+            Destroy(m_activeJoint);
+            m_activeJoint = null;
+        }
 
-	private IEnumerator PutInWasherRoutine(WolfWasher wolfWasher)
-	{
-		yield return new WaitForSeconds(washerActivationDelay);
-		
-		Destroy(gameObject);
+        public ForceReleaseResult ForceRelease(int frame = -1)
+        {
+            if (null == m_activeJoint)
+            {
+                return ForceReleaseResult.None;
+            }
 
-		wolfWasher.enabled = true;
-	}
+            m_playerController.ReleaseTrappedWolf();
+
+            Destroy(m_activeJoint);
+            m_activeJoint = null;
+
+            return frame == m_activationFrame ? ForceReleaseResult.Challenged : ForceReleaseResult.Acquired;
+        }
+    }
+
+    private readonly TrapData[] m_trapDatas = new TrapData[2];
+
+    private bool m_dead;
+    public bool isDead
+    {
+        get { return m_dead; }
+    }
+
+    public bool AttachToTrap(PlayerController player, Collider2D hit)
+    {
+        Rigidbody2D hitRigidbody = hit.attachedRigidbody;
+        Rigidbody2D trapRigidbody = player.trapCollider.attachedRigidbody;
+        int playerIndex = player.playerId;
+        int otherPlayerIndex = 1 - playerIndex;
+        int frame = Time.frameCount;
+
+        // Release current joint from other player
+
+        Debug.Log(frame);
+        TrapData.ForceReleaseResult forceReleaseResult = m_trapDatas[otherPlayerIndex].ForceRelease(frame);
+        if (forceReleaseResult == TrapData.ForceReleaseResult.Challenged)
+        {
+            return false;
+        }
+        
+        // Add new joint from current player
+
+        var fixedJoint = hitRigidbody.gameObject.AddComponent<FixedJoint2D>();
+        fixedJoint.connectedBody = trapRigidbody;
+
+        m_trapDatas[playerIndex] = new TrapData(player, fixedJoint, frame);
+
+        return true;
+    }
+
+    public void ReleaseFromTrap(PlayerController player)
+    {
+        int playerIndex = player.playerId;
+        m_trapDatas[playerIndex].Release();
+    }
+
+    public void PutInWasher(WolfWasher wolfWasher)
+    {
+        if (m_dead)
+        {
+            return;
+        }
+
+        m_dead = true;
+
+        m_trapDatas[0].ForceRelease();
+        m_trapDatas[1].ForceRelease();
+
+        wolfWasher.StartCoroutine(PutInWasherRoutine(wolfWasher));
+    }
+
+    public void RemoveHingeJointsLimits()
+    {
+        var hingeJoints = GetComponentsInChildren<HingeJoint2D>();
+        foreach (HingeJoint2D hingeJoint2D in hingeJoints)
+        {
+            hingeJoint2D.useLimits = false;
+        }
+    }
+
+    private IEnumerator PutInWasherRoutine(WolfWasher wolfWasher)
+    {
+        yield return new WaitForSeconds(washerActivationDelay);
+
+        Destroy(gameObject);
+
+        wolfWasher.enabled = true;
+    }
 }
